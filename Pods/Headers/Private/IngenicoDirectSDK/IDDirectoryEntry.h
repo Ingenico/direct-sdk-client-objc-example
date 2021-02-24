@@ -1,0 +1,1 @@
+../../../../../objc-sdk/IngenicoDirectSDK/IDDirectoryEntry.h

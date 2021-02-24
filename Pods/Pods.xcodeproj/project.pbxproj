@@ -1,0 +1,1523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050379DEB460FDBB18D108D143C8297E /* IDAssetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 89CCF5A3A75083FE77B26F130E73A6B9 /* IDAssetManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		07A287AE15DE39DEE698F2F70A571D98 /* IDPaymentProductFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BACCBAF7D5D37EA560DCD7D83CDA2C /* IDPaymentProductFields.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		08260BFBB6E7D2D8882AC35FF4DDE8D0 /* IDValidatorIBAN.h in Headers */ = {isa = PBXBuildFile; fileRef = 145FECEA70B58CC9C5AC353FDA68DC2B /* IDValidatorIBAN.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0940FC3487D27C272F76E78D36D4CFDA /* IDValidationErrorRegularExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C99DDF59EAE75C251CC14E15F7E630 /* IDValidationErrorRegularExpression.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0A9AEA9AD22C5A2903433F863803D8DD /* IDPaymentProductField.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEFA38F309AE5D36A9AA28B6F6CADC5 /* IDPaymentProductField.m */; };
+		0CDABD899A24EA43E5E7D859611D1C8A /* IDEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41024C9644FE175208D60B1D3F6031E /* IDEncryptor.m */; };
+		0EE6346B6AE674A2740D84C18B37F726 /* IDValueMappingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 88062F2E2D469E114525A91443331189 /* IDValueMappingItem.m */; };
+		0F9A0023DABC4DE5B5FF80FCE1927CA2 /* IDBasicPaymentItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B32C2916CEF7A712D5A0C31B849D432 /* IDBasicPaymentItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0FC821FC9A268C6259F98E48B947DBB9 /* IDDisplayElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 844B0EB5EE4726EF21F5067682990A3E /* IDDisplayElement.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		10CCA54746F029D2D7298C9712FD4357 /* IDPaymentProductFieldDisplayHints.h in Headers */ = {isa = PBXBuildFile; fileRef = C010A6F4773FECF9E17C51AE272E6E9B /* IDPaymentProductFieldDisplayHints.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		11B2F815781BBD6D36F1A756986627AB /* IDValidationErrorEmailAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A4D26EB96C02618ACD618669FB4DA /* IDValidationErrorEmailAddress.m */; };
+		1621DED016AD9D13894021CA6E102CE8 /* IDValidationErrorFixedList.m in Sources */ = {isa = PBXBuildFile; fileRef = C31C835759CA217E175E6F6BB9099E37 /* IDValidationErrorFixedList.m */; };
+		17B190C66A2E98149708990141580893 /* IDValidatorEmailAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 11961A8481E4934ADFDE672B03B48023 /* IDValidatorEmailAddress.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B037E2E63DF96DCC2CAECBF5671F0FA /* IDAccountOnFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7448663420B87FB862D6D255858E652D /* IDAccountOnFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DA03652406ACA1408C5638D24DBD91B /* IDJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2616C30BC110E9F6100BD075D9D20 /* IDJSON.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DC1BCF139C14423FA2C965E66464D4F /* IDValidationErrorRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2FAF696EDFC0004FD62CD84FDD15E9 /* IDValidationErrorRange.m */; };
+		1FC84E5854E8ABB9E038676FFEC9059E /* pp_logo_892.png in Sources */ = {isa = PBXBuildFile; fileRef = 4331847AED41E3C2D76CAD245E0A25B1 /* pp_logo_892.png */; };
+		20B27F232EE4523A56A1CD43566B5CAB /* IDValidationError.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13314A326E5424E549B376C2C0E793 /* IDValidationError.m */; };
+		2166C016B9E65707BC4E831564EA0BEC /* IDPaymentProductNetworks.m in Sources */ = {isa = PBXBuildFile; fileRef = C083D34F72CECB8215E3FA5D69FF866C /* IDPaymentProductNetworks.m */; };
+		21D805EA6C60C89347547D57C51C85CB /* IDAccountOnFileAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = B8CBB7D508F3426A305B12E5E2E97A01 /* IDAccountOnFileAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21F2A9E46236D7277483ECBD4A7E912B /* IDPaymentProductField.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F8FEE3D2D9B72B19BE797FF9C7E519 /* IDPaymentProductField.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2533CBAF823908BE914B4419F929DD60 /* IDValidatorEmailAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E21A59DD2148F55CA3146C93049F921 /* IDValidatorEmailAddress.m */; };
+		28EE1597D49EEC635522C951B57940C5 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE45DF297826AF09B98160F77E7639F /* SVProgressAnimatedView.m */; };
+		2906B0199EA29CA0020A84DA8D23CDF1 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = B709B9B640F411F943E8677C5DB00CE2 /* Info.plist */; };
+		2AB81E856DA6C8669E412BA30ACE8F8C /* IDValidatorRegularExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = 5886767CF2ACEC2E55995F22F168F735 /* IDValidatorRegularExpression.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B360C82298BC7506FCE18FE99C45E32 /* IDValidationErrorEmailAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3D1B6942B56EAE36702A37960632F3 /* IDValidationErrorEmailAddress.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30F2CF296BF7728F9E17E7ACCEBB627A /* IDValidationErrorAllowed.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3D35677A64836407246EF0D9D992FB /* IDValidationErrorAllowed.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		364BDDC596982B714A11D255CA7634EF /* IDNetworkingWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F96290E02F36488C09B3D0E12CA6C21 /* IDNetworkingWrapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36FAE96CAA239E02C614CADBCD1B4194 /* IDValidationErrorTermsAndConditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE285698E94B3EC250D7DA7FA93AD1D /* IDValidationErrorTermsAndConditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		384030644B9635B57E7ED7D007A455D3 /* IDNetworkingActivityConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B543859712C7D9D9C0BD7A335B148A29 /* IDNetworkingActivityConsoleLogger.m */; };
+		3DFC3A76069B471343E30993E1E5833B /* IDIINDetailsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B53DB08A13BC9F747A432BC5325AB1F4 /* IDIINDetailsResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42BA914BCC0A03C556E5A45CAFC4AC19 /* IDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 691103D77DB2259C46A71130D7555410 /* IDUtil.m */; };
+		431022D96B10E88CB043E6D3878AC297 /* Pods-IngenicoDirectExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 294711AF8AC3F51F5C1CD46A06CB5E73 /* Pods-IngenicoDirectExample-dummy.m */; };
+		44BD48D028EA379E0CFC7C7FCFDFA133 /* IDValidatorLuhn.m in Sources */ = {isa = PBXBuildFile; fileRef = 3407909208E111903E4759D92E6852F2 /* IDValidatorLuhn.m */; };
+		470358AC45DBD4C307A8710F7F92F1C6 /* IDRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 800D1925A8EFCC20B1BE2FDB9CD4D51A /* IDRegion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48D599612437DB8485B7096AAC94726D /* IDPaymentProduct302SpecificData.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B523E05F815DFB01B48FBBECB7D2B /* IDPaymentProduct302SpecificData.m */; };
+		4971C5D36C8DB492740A46B331AB537D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 193380CF0DDFFC1DA4C26DD68A3E5B7D /* SVProgressHUD.m */; };
+		49BCF0C38CAF8F3E56572BCFD94E9571 /* IDMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 339B128C06FF1D35336701504509C862 /* IDMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B1B1D8AF578BA84F9E226C8D1EA730D /* IDToolTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0AB54DAB88D24EB3BDD0681508ADA /* IDToolTip.m */; };
+		4FA91E3FA475553B7C522C1C0FC75A38 /* IDLabelTemplateItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F468B02739710B5D4D4AA96964C51F4F /* IDLabelTemplateItem.m */; };
+		531E89F1C862F5B2C0CDE3F5D9D37A10 /* IDBasicPaymentProducts.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA63A3D317BE5F164E96BA236BE49E /* IDBasicPaymentProducts.m */; };
+		53F9D07C0259931F8AF3EBD210F5B865 /* IDPaymentAmountOfMoney.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C0E19C8684F659A3FB9595E0FC212E3 /* IDPaymentAmountOfMoney.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		545325DBA1132F1E2DA1C20B95108395 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53F251231306653704A5432E1D79259 /* SVIndefiniteAnimatedView.m */; };
+		545B7FE8A328EA9AA0859683BA942D3E /* IDValidationErrorIsRequired.h in Headers */ = {isa = PBXBuildFile; fileRef = B172E31CEB306D978D16DD163BD998B9 /* IDValidationErrorIsRequired.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56FDF488C0304EF7DE48F5409A1399AD /* IDC2SCommunicatorConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 596131AF879B8BDC024DEDBC45C80383 /* IDC2SCommunicatorConfiguration.m */; };
+		59284638730C850AAEF12F114A7DF4FD /* IDIINDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = 74BE52CE150FDC59826055D2B31E8316 /* IDIINDetail.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		593F40BE0606B8A1FC5A54739D3F4CE7 /* IDBasicPaymentProductsConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6197A81465D802DA65E17439FD4F1C77 /* IDBasicPaymentProductsConverter.m */; };
+		59B1B03E6CFD23E7F64221819FA9DAE0 /* IDPaymentContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DED79E835DBB032CEA60116EBE42E54 /* IDPaymentContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A3E5C729E314FAA98ADEA094F4E4897 /* IDValidatorExpirationDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCF4D98FF46FAEA0D96C862920DD78F /* IDValidatorExpirationDate.m */; };
+		5B8B1DADB2A5C5730E81C79D2632AA94 /* IDNetworkingActivityConsoleLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = C28CAB3B2B27CDBF91535CF5A282CB1E /* IDNetworkingActivityConsoleLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		605C8B8F98AADBB7F79D3219C4CBD426 /* IDDisplayElementsConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E1DDC138D0B33306AEB8165B95A6ED /* IDDisplayElementsConverter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60DE0B1DD1237F8C839E8CC6B2767290 /* IDValidationErrorIsRequired.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCD3AED42CA6E5521AA38FCF6B60FAF /* IDValidationErrorIsRequired.m */; };
+		615F7E8C0E7A6279C288EA70F9EFD418 /* IDAccountOnFileAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B85E4ADAD96E80E625281F29DC249E /* IDAccountOnFileAttributes.m */; };
+		619A1E6A15A6DC7B2CC5DB03D2129BE9 /* IDValidationErrorNumericString.m in Sources */ = {isa = PBXBuildFile; fileRef = 51ECE5B08C6A8157B7F2270E6408332D /* IDValidationErrorNumericString.m */; };
+		635321916965DD324D5F2CCD09145054 /* IDFormElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C8DB40DFB0AB6DC8943C62E7E62452 /* IDFormElement.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		636E54DDE51104BF6EA3D5A85BC06C9D /* IDValidationErrorInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A3287DAF2151889C2A167E6E3CCFB0 /* IDValidationErrorInteger.m */; };
+		63C5AAAE925E8166FDDC1492B346A316 /* IDPaymentItemDisplayHints.m in Sources */ = {isa = PBXBuildFile; fileRef = 28657B6F0D0A63C862A67F130990274E /* IDPaymentItemDisplayHints.m */; };
+		66467D07B7852F201825D0469CA689AC /* IDPaymentProductFieldDisplayHints.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F973ECC988B8F47E43A858355AECD4A /* IDPaymentProductFieldDisplayHints.m */; };
+		66CF947D1AEB19492BFE7F3BC86C9962 /* IDJOSEEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E05177C7D910F09B8EC448790E246B /* IDJOSEEncryptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		676A1C294987CB5D7F2536141F0268C1 /* IDDataRestrictions.h in Headers */ = {isa = PBXBuildFile; fileRef = F05B386E5DC9A2D75E524E050C6F9993 /* IDDataRestrictions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68330ED612EC5644D71B25F8655E24AA /* IDPreparedPaymentRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8842CBC126FE371F27601860C168D6 /* IDPreparedPaymentRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6847D576698C770A272F9CB232B29F2A /* IDFormElementType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFD11097223F9CFE1D772272C6EF59A /* IDFormElementType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		684E71A1D6456F74073816164315182C /* IDPaymentProduct302SpecificData.h in Headers */ = {isa = PBXBuildFile; fileRef = 91E6C93D4227AF214A8F1DA50B0BC5B1 /* IDPaymentProduct302SpecificData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6967A363B65D2A7632FE93ABB3E40A08 /* IDBasicPaymentProducts.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E88D9E6F3FD1AB2CA8C73266D9D040B /* IDBasicPaymentProducts.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A9C30C1F3C4808E9DB2B4005B7D2A0B /* IDValidatorRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F8128E960891249C624C3190F38877 /* IDValidatorRegularExpression.m */; };
+		6B8A46DCECF59505D113D2D298EE9A94 /* IDPaymentProductNetworks.h in Headers */ = {isa = PBXBuildFile; fileRef = A75D30CFFD23CE0192A687B28CB41E67 /* IDPaymentProductNetworks.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6CBE799BF9E928C1E31DB5EA0B90EBA4 /* IDPaymentItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 106297CC4F1CD9F077CB6E86A9348CDE /* IDPaymentItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6DEBD0FCFF104C1893AC18DE12113DAE /* IDValidationErrorInteger.h in Headers */ = {isa = PBXBuildFile; fileRef = 84639F384FABF75D9CE85A7CC4D26C7D /* IDValidationErrorInteger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6E41B9BAFB938009183C3F3956495BE1 /* IDPaymentItemDisplayHints.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB796DF89C9C6CB15F80C2535AD5B8B /* IDPaymentItemDisplayHints.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F7439644C4DA4A6C3CC0DF346CFFA1F /* IDValueMappingItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 72DFB0873906596469A65F46E1FB94FF /* IDValueMappingItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7114BA5B85100E68F2B71323BA113641 /* IDValidatorRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 091695FD5B6BC421A9E3D798A45C9C73 /* IDValidatorRange.m */; };
+		71FFBDB0842AE6150461ED998F1B09F3 /* IDAssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8615EE224F2A6B2F148AD046C56483 /* IDAssetManager.m */; };
+		73047F7C249309E250D5BF5D0DDC48E0 /* IDBasicPaymentItemConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6828670F6A5E786E3175B806CA7FDD2E /* IDBasicPaymentItemConverter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75CA857131102859E5CD4756018AB849 /* IDIINDetailsResponseConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2F31AE6FFEFE72299E0154A58399F5 /* IDIINDetailsResponseConverter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7736D43BF2A633984710942B36C1FBFF /* IDValidators.h in Headers */ = {isa = PBXBuildFile; fileRef = EB6E37EF6CD3A72C8B52020F80F7B8E6 /* IDValidators.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78321FACAEC7D026A9EEE42D2FBAA7C9 /* IDPaymentProductGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3489133C4609CB508A535EF3333955 /* IDPaymentProductGroup.m */; };
+		79E36CCF33BBCDE69D3D2847BD336F6B /* IDValidationErrorExpirationDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 41BA540C1EF5E48C1A52CEFEE93FF732 /* IDValidationErrorExpirationDate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		79EE3D7D4EA7D170F0CC5C0463D1F1D9 /* IDValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = C04AB04A5EE9A9519913F3A2CDB6742F /* IDValidator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B3BA9D6DB90261DC17E8A0E685BEC93 /* IDUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A877C498909F966B4DAAFE5F4CE44616 /* IDUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7BB81E74034BAE6CF4A0864D1405390F /* IDIINStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 2932C673BCDEDFC55C1B5808EDC8DCBB /* IDIINStatus.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7CD9EC28CFAE9B96E3696D72C4399293 /* IDSession.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDCF1CF24E5C4E7AD16041776C98793 /* IDSession.m */; };
+		7DCA0839488AEB6AA05423741365AF45 /* IDValidatorFixedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 58751F6E9D76334CF658EC1B13413CC4 /* IDValidatorFixedList.m */; };
+		80A675BE95D23141B3EBBC795CCB2AC9 /* IDPaymentRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9659E9CA2302457912C91D6862B72439 /* IDPaymentRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		80D4E738D7DF5231E9086947F057D9A6 /* IDPaymentContextConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FA76E852E1019231F8EC376D3C0924 /* IDPaymentContextConverter.m */; };
+		81A9353CD67DD8ACACA8CD24641BEA8A /* IDLabelTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA627003473D2EA546F293691075218 /* IDLabelTemplate.m */; };
+		82A11D159DBF699FC0943078EEDB85E7 /* IDLabelTemplateItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 538EDA25F85940BBA79771D65A0429D7 /* IDLabelTemplateItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		852F89F7BB1409206C41EE2A8E2B024D /* IDAccountOnFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0648E2951F0FEDCA6D1D6DFB59E3DF60 /* IDAccountOnFile.m */; };
+		85E4ABEC6F36DF2C0E6CFCDD03E22BF3 /* IDDisplayElementsConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 51ABEA43E5765220006218EA0CA51DC2 /* IDDisplayElementsConverter.m */; };
+		8649FA19DB7585214273380164946561 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = B47C61C9A7B76894B8FD4177D13562E0 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87C2268B46DF5ABAA00A97359BCFCFCA /* IDBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 733267CCAF333995B1C752F9B749FE70 /* IDBase64.m */; };
+		88AE7E663A4E730B56187309E7822D94 /* IDNetworkingActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4C05A541FB0AA0981F9910F42CD882 /* IDNetworkingActivityLogger.m */; };
+		8B1BFBB7AD94076D57BED52FDCD5B718 /* IngenicoDirectSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C2CF78530ADD0A393914C3BD93F4741C /* IngenicoDirectSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8BC0B54E252F283B2B0CE67F79E10F36 /* IDPaymentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C6D7C8CB7705B797BD990FEF3EA4D1 /* IDPaymentRequest.m */; };
+		8C60FB012C17909CC5ACC060F636A4D2 /* IDPaymentProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = B25A3B453E4E9B6883FB39E9918C8AAC /* IDPaymentProduct.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8CCEEEFDA7B88D183416A6C0FA24DC37 /* IDType.h in Headers */ = {isa = PBXBuildFile; fileRef = F3E199B8BCB34767A64D7B9952D100AA /* IDType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8CF9EA211C496A36ECD76F50254BAD9F /* IDPaymentItemConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04799D4C4BA0E8206D861FA88FD74305 /* IDPaymentItemConverter.m */; };
+		8D4DA7D323D4147CEC1D1FEEA155F79D /* IDSDKConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = FE72F2061701159E5CB234DCC88325D2 /* IDSDKConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8EF5D2DA26C3BA92D071C1473CA11EA4 /* IDPaymentItemConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 62204B4F24187298C8B2B4C15B4B39C5 /* IDPaymentItemConverter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9028D72A9A027E883B6E9A0EDBD78795 /* IDValidatorIBAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4772FEBFF980D4CB782A07E531D3F6 /* IDValidatorIBAN.m */; };
+		9363335FE3C5C6F380E2E08F59943F6B /* IDAccountOnFileAttributeStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 1763095BE5FABF7DF44FB2356DFFFACF /* IDAccountOnFileAttributeStatus.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93BCCAA487DF48D92CE256EE6E02D023 /* IDValidationErrorLuhn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9991201778FBFF7CC5CBF3C42CAD1E /* IDValidationErrorLuhn.m */; };
+		95553DE35B9DF0D205E7B4F10051AE38 /* IDValidatorFixedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E0D555CD383ACA8FEADD42161F5056 /* IDValidatorFixedList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		992CE69336EDBA62C3E3705DF4D940A8 /* IDNetworkingActivityLoggerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 59B1AC48DF4E5684226944408254B8C2 /* IDNetworkingActivityLoggerProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99599046E9583DA0BAD85EB3CE93A2BE /* IDValidationError.h in Headers */ = {isa = PBXBuildFile; fileRef = E779CB93AF8D7BAAA1CA035658450D21 /* IDValidationError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9B8AEAF83516A06039F52AEABEBDEF24 /* IDValidationErrorNumericString.h in Headers */ = {isa = PBXBuildFile; fileRef = 706A59C05A7EDDB563F6297381D797CD /* IDValidationErrorNumericString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E6A86D1D3983E3AD2802CA2B480D515 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B25A7A0E39C86D9EDCBCE8AA0E89C163 /* SVProgressHUD-dummy.m */; };
+		9E7670C1677ACF05B080B52CB9CCEBAD /* IDAccountOnFileDisplayHints.m in Sources */ = {isa = PBXBuildFile; fileRef = 23062BDB3C14A98A729984B9AD1CB8C8 /* IDAccountOnFileDisplayHints.m */; };
+		9EE38A9E16958132DD3F19DA0B73D829 /* IDValidatorTermsAndConditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 880A46D22E5A867BDC3DFA64019B6497 /* IDValidatorTermsAndConditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A11BB87438E3DC0CAA3CD9F1981D35E4 /* Pods-IngenicoDirectExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C99A92CE9F019FDFF99745F5E890CBB3 /* Pods-IngenicoDirectExampleTests-dummy.m */; };
+		A15CE96F7AD33BDB27FDDF7195E8D224 /* IDBasicPaymentProductConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D448B01D2B09D54B69750CC5B4A31F /* IDBasicPaymentProductConverter.m */; };
+		A170C3CBEF9527BD108E9720B841AD4F /* IDBasicPaymentProductGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A8CA2DB65F50571F4F2190218E3DF1 /* IDBasicPaymentProductGroups.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A19254C7022945481890FB155E6D80F8 /* IDValidators.m in Sources */ = {isa = PBXBuildFile; fileRef = F516B2968244BE0B3B0966D6FB789E54 /* IDValidators.m */; };
+		A233907831E09F35AF267BF54938FEB2 /* IDAFNetworkingWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A119F73DE4D695F743EEA9EF1702F0 /* IDAFNetworkingWrapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A6FD1E0C4C92E78A6FB9EF200D364E51 /* IDAFNetworkingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 989D5C66C398730ADB3C095096AB8DB4 /* IDAFNetworkingWrapper.m */; };
+		A7288E4CCD296A766E97A28EF078EC01 /* IDC2SCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B53A81AADB1EC0BB23C1C75A35077895 /* IDC2SCommunicator.m */; };
+		A9F09F874198E821293756B698707DAD /* IDEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE961CC474DC49A7F048A664DFAB47B /* IDEncryptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA195C1F5C313A86EF7BB2E359C0B775 /* IDSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 786A38CF1EAFD8951726D8E4F2C4EC18 /* IDSession.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ABB0939F3F00D435A5CE2E2EC077C166 /* IDValidationErrorRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0C206975463B01D17417622EDE170 /* IDValidationErrorRegularExpression.m */; };
+		AF559EEBDEEDF421756966862ED3E746 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D4077DAE168B0F3DCC78108241BDDE /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0CEBAB3545B674B40536DF1B83D8A1B /* IDToolTip.h in Headers */ = {isa = PBXBuildFile; fileRef = 928052B9FF742D866D31C46FDD34B248 /* IDToolTip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B12399907B4958B983E30DFC3E4953C9 /* IDValidationErrorLuhn.h in Headers */ = {isa = PBXBuildFile; fileRef = B204BF8A3BA13C8C2E650F124C085A1B /* IDValidationErrorLuhn.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B206FB2CC5D6805C9209D7B8219BA507 /* IDValidationErrorIBAN.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B4EE364C9F2AF4D43AD61D75EAE69C /* IDValidationErrorIBAN.m */; };
+		B2698E65291D1249ACA9392BA6546F02 /* IDC2SCommunicator.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1151E6BF0DF223AE5EF87809703C2E /* IDC2SCommunicator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2CF18D596B9085D12CE984E33EB6DFF /* IDValidatorLength.h in Headers */ = {isa = PBXBuildFile; fileRef = 00D197DDCC01CCEDFB5F7B73BF9E3A93 /* IDValidatorLength.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4DF7F533D32AE659F94BCE590941FF2 /* IDPreparedPaymentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D1A0160DDDDDEA4C3CDD536E6C0890 /* IDPreparedPaymentRequest.m */; };
+		B6019162F1D33FF19E711914928085FA /* IDValidatorLuhn.h in Headers */ = {isa = PBXBuildFile; fileRef = 7514F23A07195E420F956730DB4CABA8 /* IDValidatorLuhn.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B828ED3CA483FEB87469E742AB8405B9 /* IDAccountOnFileAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E98A1CECA1398030F501D0BE8EBCC16B /* IDAccountOnFileAttribute.m */; };
+		B9236CD38CC950D674FA1C50024E3CD6 /* IDBasicPaymentProductGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AE8D272D0A61B8A7F19994D78170D5 /* IDBasicPaymentProductGroups.m */; };
+		B9D5CB96CBDAE259DE2B8B800A77D679 /* IDValidatorLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 6488DFB8A01F1E76B27302585897A81C /* IDValidatorLength.m */; };
+		BA558BFEFACEF6DE1DB44109BA87AD0D /* IDJOSEEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 689AA9A6024ED426F8302D3A2D012003 /* IDJOSEEncryptor.m */; };
+		BA85899276AA6849879877EA51A9C1EF /* IDAccountOnFileDisplayHints.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7E98B21EC1EB04037EB62DC86A8809 /* IDAccountOnFileDisplayHints.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB6954259AAB80305E86240FB0B26E1C /* IDNetworkingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE76BF8F29603CB95117B2940D71A1CE /* IDNetworkingWrapper.m */; };
+		BC856574A8FC24A3280F7BA544B2E4E8 /* IDPaymentItems.m in Sources */ = {isa = PBXBuildFile; fileRef = A8ED0BF8BC6A8F8886A44844051207EF /* IDPaymentItems.m */; };
+		C1D7B6FC7D3382D98163947ADFB3ED65 /* IDEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = AED9224E0592EC6F5FC968AADD82D5D2 /* IDEnvironment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C32392DB5D49266DD251423E7A9EE180 /* IDNetworkingActivityLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D0BD7FC1B66B10BDF6080E96CA09E3 /* IDNetworkingActivityLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C94EECDBFC42F7FB03289F324F45186A /* IDPaymentContextConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D99F8A379D59371E6AA6B462CE3305 /* IDPaymentContextConverter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB6A81A374C0B68D3203647A5BE6138A /* IDPaymentProductGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 863659CDB9CC216782109F445CB6025A /* IDPaymentProductGroup.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBD2682392A582A667223EA29714CD57 /* IDValidationErrorRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 28ED16CE7BAE7AABCCB2E4A184B5E1D7 /* IDValidationErrorRange.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CDAEDB69CD7E7CBD0250DD19724A6419 /* IDValidationErrorFixedList.h in Headers */ = {isa = PBXBuildFile; fileRef = D27D5D54EF85707378826F5A7F3129BD /* IDValidationErrorFixedList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D22B2807D020A9DF0494636B1311FAE7 /* IDPaymentProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAB03EA95EB12DDFA82CBCAD80D74E4 /* IDPaymentProduct.m */; };
+		D2DCA7525BEB0F78656ACA34238BFE0D /* IDPublicKeyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 474D465035507C6C2209323A216130A4 /* IDPublicKeyResponse.m */; };
+		D40AE1D2BED0040884D6A56195B96C02 /* IDBasicPaymentProductGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 811D8194EFDBB51978CAFF9DADBD8E12 /* IDBasicPaymentProductGroup.m */; };
+		D44D9B0F91403DAA660F3BC32D1B50B2 /* IDAccountsOnFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E860449084C42A27D7D6312C89795CE /* IDAccountsOnFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D53DDEE4926854705AF4E919BC6A3F40 /* IDPaymentAmountOfMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = 29898F365481F047858967AD85CD2BD5 /* IDPaymentAmountOfMoney.m */; };
+		D898A486A769EAC63B49F68856BB8206 /* IDValidationErrorExpirationDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A269188AEE5D920FFD8366FEADC267C /* IDValidationErrorExpirationDate.m */; };
+		D942901EB7A410CB73644168A380E730 /* IDBasicPaymentProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6954AC5FC7AE84C13C42D1A1F37878 /* IDBasicPaymentProduct.m */; };
+		DC85A1CC87F3496C48D0CC2B09E5322F /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBF861E3EEF28F7A1F76543EF1A3BD2 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC8E6FF4A70548DC008137099DA153FD /* IDBasicPaymentProductConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = E3215BC49532E489B6C7BB0AE9E2835B /* IDBasicPaymentProductConverter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DCF0573820707908E8A78D30B1787093 /* IDValidationErrorIBAN.h in Headers */ = {isa = PBXBuildFile; fileRef = F963826D3C605BED89383C82F8AF195D /* IDValidationErrorIBAN.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD1035158E2A60FC7C346347B3F717BF /* IDBasicPaymentProductGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 80ED3E07D5E12679DC48829C36A7A337 /* IDBasicPaymentProductGroup.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD255BD6D2927D3B37A65D6AE04C9105 /* IDFormElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AD3E597F907E5B3B4FF305F02A75E1 /* IDFormElement.m */; };
+		E04F0A55E0197709A26769E2048E401E /* IDBasicPaymentItemConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2A3204EAD7650D2A32CBF527C476B0 /* IDBasicPaymentItemConverter.m */; };
+		E06A7B91A435AA59795CA7E7EEDF492D /* IDPreferredInputType.h in Headers */ = {isa = PBXBuildFile; fileRef = 287702D02A4FBD45554F6BF9456DE58E /* IDPreferredInputType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E111B2D25108CCD5651D39598D7C15C0 /* IDValidatorExpirationDate.h in Headers */ = {isa = PBXBuildFile; fileRef = DFEC4F63075836E122794D80BCB32F46 /* IDValidatorExpirationDate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E1C8EDA447B9B6DD5986921E47847D70 /* IDValidationErrorLength.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3B0C121B7E5A0A0393D96EAB2677CE /* IDValidationErrorLength.m */; };
+		E29B4B8D1F975A5CC60C8FAD0EDDFF1D /* IDValidationErrorTermsAndConditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8DAF7E55697FC5011E8C74EA87C85 /* IDValidationErrorTermsAndConditions.m */; };
+		E2FFBEB448A8E26BCDE6ACAA381D07B3 /* IDBasicPaymentProductsConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = A50E857516494C23CEC4D43E4476160A /* IDBasicPaymentProductsConverter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E31A5016E3E63DAE772F17FC030852B2 /* IDDisplayElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DA11DA530F55A88B3D8A559065719E /* IDDisplayElement.m */; };
+		E35D86BE373032F295228D21C5B3EDF1 /* IDPaymentProductConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE7821ECED82D77E1864274FF76F2F9 /* IDPaymentProductConverter.m */; };
+		E3C02666730BB8A2B33F2E4666213163 /* IDAccountsOnFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 332E23848A7FCB7070E810EAD0447261 /* IDAccountsOnFile.m */; };
+		E4B88785F63FF615429823059AB7D6D5 /* IDPaymentContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE47D91B39133CE4E2DDFD1CCADDFFA /* IDPaymentContext.m */; };
+		E56ED51862897266BF586BA26965E137 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD78FAA4F57E4C8A356C5A23246A495F /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5F0BE6AB852E5D7510A0030778728F0 /* IDDataRestrictions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7C8D1DF349C2B99EF92A6CED65389D /* IDDataRestrictions.m */; };
+		E6D0B7CC7030E8CE14FFA90CAE078EAF /* IDIINDetailsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FB46FD0C98E70268865566DB0C6D9 /* IDIINDetailsResponse.m */; };
+		E7423CED3C1C159FD3FE947B0DF217B6 /* IDDisplayElementType.h in Headers */ = {isa = PBXBuildFile; fileRef = 015663975C786DEEC140997CBA6E9F67 /* IDDisplayElementType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E8EE9A5E4731D4BC283CA3EB63C68720 /* pp_logo_402.png in Sources */ = {isa = PBXBuildFile; fileRef = B959094FDE4D13AE6487AB19A4E1D2E2 /* pp_logo_402.png */; };
+		E99BBF05C85CB54BF25DDBA71E897A01 /* IDC2SCommunicatorConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8A3916435F45ED284B0715B0B0155C /* IDC2SCommunicatorConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB963CD460452B65C76B9EF60D3B9E15 /* IngenicoDirectSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBD2578A25506B860A746C596729AA6 /* IngenicoDirectSDK-dummy.m */; };
+		ECBB87AA470B0A63BF8AB367E54D8535 /* IDValidatorRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 2022E7BAF3A78882C2C3FE49546564FB /* IDValidatorRange.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE69AEFB4A767B32050CCF4E4A537756 /* IDPaymentProductFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 5311BA4960CA157B0E9CA5584FD2E9C9 /* IDPaymentProductFields.m */; };
+		EEE75AAC36BAC73977DC12AF751FC132 /* IDBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A167B8498345BB64521AB9B4860BD90 /* IDBase64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EFBFD456DBB76B03749210B14D253A8C /* IDJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8A52382D53690F2330D3B503704EF9 /* IDJSON.m */; };
+		EFC6A629FE1A4F780CC60B16B221E2E2 /* IDIINDetailsResponseConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B52A9942CDB384078C11EA0620A0A /* IDIINDetailsResponseConverter.m */; };
+		EFCDA4FE54E04800874845FF8C1690B5 /* IDValidationErrorLength.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC418691C7F30512C1AADD745FDAC35 /* IDValidationErrorLength.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1E4D22211D0B0C0B786CE8914069393 /* IDBasicPaymentProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = 4258351F9B84F371645FB1BBC67CD016 /* IDBasicPaymentProduct.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F2AD5C8E09B1FA6A528A11164753D009 /* IDValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F21132878F9611CAAE63440D50B0EC7 /* IDValidator.m */; };
+		F30501C805F9B42A8B35BB4C50257060 /* IDPublicKeyResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEBCBBF8A0DD8966B536A9FBCB89C1C /* IDPublicKeyResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F469136DE2F0C917744B2169A95A73E5 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE9EF848C5F146820F90EAD2AF276B7 /* SVRadialGradientLayer.m */; };
+		F4F557C886A1D0F46A1F4B24C2228926 /* IDPaymentProductConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 77EEDB54D5B5D1723676447D257AF630 /* IDPaymentProductConverter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F51376D5375835AB6040101CF7C66589 /* IDValidatorTermsAndConditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A511AE805562A28A179C6FF2B363362C /* IDValidatorTermsAndConditions.m */; };
+		F74E947025F5A4BDC9F57F8D1BDE6CF8 /* IDStringFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B16E2DF17E82013049D273346E32ECF /* IDStringFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA4ADFD9C6ABCAE2CCEC5A5777F96F8E /* IDValidationErrorAllowed.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7146BEF11154787CFF92B6243E5F81 /* IDValidationErrorAllowed.m */; };
+		FDAB672C43E963DFCD4B5E795EF974F4 /* IDLabelTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A1614B1E9E8C828773F1FB48912E00 /* IDLabelTemplate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FDCD232192960D5A03F4714ED61E1232 /* IDPaymentItems.h in Headers */ = {isa = PBXBuildFile; fileRef = C25708F14BB9680B71152A92E87C9FFA /* IDPaymentItems.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE93D45135A519127DF4FA2801D284ED /* IDStringFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE8DDE6BCBA072A70AB6C7D90DF8183 /* IDStringFormatter.m */; };
+		FEA140EE170CE6A492E173DECB71ED36 /* IDAccountOnFileAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 07936D2DF4DCD7B04DE3108966864467 /* IDAccountOnFileAttributes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF4C8D53678F00E0715E058185FB4E6A /* IDIINDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0F3A2341B7D68DA476A51EE3BF01F9 /* IDIINDetail.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2069479663E3BCAB3E2F3B2CA822EBA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		5924AF768BA77567A2283D00983211C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12D26A0CA075A04162D524BF97CCFEDB;
+			remoteInfo = IngenicoDirectSDK;
+		};
+		D4C369A10C19B4FE4B18E9729EFEBD7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6E2EB7BA83AFD31F5DAC000A167CABD;
+			remoteInfo = "Pods-IngenicoDirectExample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D197DDCC01CCEDFB5F7B73BF9E3A93 /* IDValidatorLength.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidatorLength.h; path = IngenicoDirectSDK/IDValidatorLength.h; sourceTree = "<group>"; };
+		015663975C786DEEC140997CBA6E9F67 /* IDDisplayElementType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDDisplayElementType.h; path = IngenicoDirectSDK/IDDisplayElementType.h; sourceTree = "<group>"; };
+		01D1A0160DDDDDEA4C3CDD536E6C0890 /* IDPreparedPaymentRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPreparedPaymentRequest.m; path = IngenicoDirectSDK/IDPreparedPaymentRequest.m; sourceTree = "<group>"; };
+		04799D4C4BA0E8206D861FA88FD74305 /* IDPaymentItemConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPaymentItemConverter.m; path = IngenicoDirectSDK/IDPaymentItemConverter.m; sourceTree = "<group>"; };
+		0648E2951F0FEDCA6D1D6DFB59E3DF60 /* IDAccountOnFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDAccountOnFile.m; path = IngenicoDirectSDK/IDAccountOnFile.m; sourceTree = "<group>"; };
+		07936D2DF4DCD7B04DE3108966864467 /* IDAccountOnFileAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDAccountOnFileAttributes.h; path = IngenicoDirectSDK/IDAccountOnFileAttributes.h; sourceTree = "<group>"; };
+		091695FD5B6BC421A9E3D798A45C9C73 /* IDValidatorRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidatorRange.m; path = IngenicoDirectSDK/IDValidatorRange.m; sourceTree = "<group>"; };
+		09E1DDC138D0B33306AEB8165B95A6ED /* IDDisplayElementsConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDDisplayElementsConverter.h; path = IngenicoDirectSDK/IDDisplayElementsConverter.h; sourceTree = "<group>"; };
+		0B16E2DF17E82013049D273346E32ECF /* IDStringFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDStringFormatter.h; path = IngenicoDirectSDK/IDStringFormatter.h; sourceTree = "<group>"; };
+		0B32C2916CEF7A712D5A0C31B849D432 /* IDBasicPaymentItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDBasicPaymentItem.h; path = IngenicoDirectSDK/IDBasicPaymentItem.h; sourceTree = "<group>"; };
+		0CE961CC474DC49A7F048A664DFAB47B /* IDEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDEncryptor.h; path = IngenicoDirectSDK/IDEncryptor.h; sourceTree = "<group>"; };
+		0E66A0F683BDF8134411FEF9C535B86E /* IngenicoDirectSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IngenicoDirectSDK.bundle; path = IngenicoDirectSDK/IngenicoDirectSDK.bundle; sourceTree = "<group>"; };
+		0F96290E02F36488C09B3D0E12CA6C21 /* IDNetworkingWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDNetworkingWrapper.h; path = IngenicoDirectSDK/IDNetworkingWrapper.h; sourceTree = "<group>"; };
+		106297CC4F1CD9F077CB6E86A9348CDE /* IDPaymentItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPaymentItem.h; path = IngenicoDirectSDK/IDPaymentItem.h; sourceTree = "<group>"; };
+		11961A8481E4934ADFDE672B03B48023 /* IDValidatorEmailAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidatorEmailAddress.h; path = IngenicoDirectSDK/IDValidatorEmailAddress.h; sourceTree = "<group>"; };
+		145FECEA70B58CC9C5AC353FDA68DC2B /* IDValidatorIBAN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidatorIBAN.h; path = IngenicoDirectSDK/IDValidatorIBAN.h; sourceTree = "<group>"; };
+		160BC09A38C5BA4054A2A44F2E9F9A1E /* IngenicoDirectSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IngenicoDirectSDK.debug.xcconfig; sourceTree = "<group>"; };
+		1763095BE5FABF7DF44FB2356DFFFACF /* IDAccountOnFileAttributeStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDAccountOnFileAttributeStatus.h; path = IngenicoDirectSDK/IDAccountOnFileAttributeStatus.h; sourceTree = "<group>"; };
+		193380CF0DDFFC1DA4C26DD68A3E5B7D /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		19C6D7C8CB7705B797BD990FEF3EA4D1 /* IDPaymentRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPaymentRequest.m; path = IngenicoDirectSDK/IDPaymentRequest.m; sourceTree = "<group>"; };
+		1AE285698E94B3EC250D7DA7FA93AD1D /* IDValidationErrorTermsAndConditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidationErrorTermsAndConditions.h; path = IngenicoDirectSDK/IDValidationErrorTermsAndConditions.h; sourceTree = "<group>"; };
+		1B431540FCE91DA7EF4F07A033742459 /* libIngenicoDirectSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIngenicoDirectSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7C8D1DF349C2B99EF92A6CED65389D /* IDDataRestrictions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDDataRestrictions.m; path = IngenicoDirectSDK/IDDataRestrictions.m; sourceTree = "<group>"; };
+		2022E7BAF3A78882C2C3FE49546564FB /* IDValidatorRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidatorRange.h; path = IngenicoDirectSDK/IDValidatorRange.h; sourceTree = "<group>"; };
+		23062BDB3C14A98A729984B9AD1CB8C8 /* IDAccountOnFileDisplayHints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDAccountOnFileDisplayHints.m; path = IngenicoDirectSDK/IDAccountOnFileDisplayHints.m; sourceTree = "<group>"; };
+		2510AEBD9AF17EA10D49A121208D0ECB /* Pods-IngenicoDirectExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IngenicoDirectExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		28657B6F0D0A63C862A67F130990274E /* IDPaymentItemDisplayHints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPaymentItemDisplayHints.m; path = IngenicoDirectSDK/IDPaymentItemDisplayHints.m; sourceTree = "<group>"; };
+		287702D02A4FBD45554F6BF9456DE58E /* IDPreferredInputType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPreferredInputType.h; path = IngenicoDirectSDK/IDPreferredInputType.h; sourceTree = "<group>"; };
+		28A119F73DE4D695F743EEA9EF1702F0 /* IDAFNetworkingWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDAFNetworkingWrapper.h; path = IngenicoDirectSDK/IDAFNetworkingWrapper.h; sourceTree = "<group>"; };
+		28ED16CE7BAE7AABCCB2E4A184B5E1D7 /* IDValidationErrorRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidationErrorRange.h; path = IngenicoDirectSDK/IDValidationErrorRange.h; sourceTree = "<group>"; };
+		2932C673BCDEDFC55C1B5808EDC8DCBB /* IDIINStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDIINStatus.h; path = IngenicoDirectSDK/IDIINStatus.h; sourceTree = "<group>"; };
+		294711AF8AC3F51F5C1CD46A06CB5E73 /* Pods-IngenicoDirectExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IngenicoDirectExample-dummy.m"; sourceTree = "<group>"; };
+		29898F365481F047858967AD85CD2BD5 /* IDPaymentAmountOfMoney.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPaymentAmountOfMoney.m; path = IngenicoDirectSDK/IDPaymentAmountOfMoney.m; sourceTree = "<group>"; };
+		2B2FAF696EDFC0004FD62CD84FDD15E9 /* IDValidationErrorRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidationErrorRange.m; path = IngenicoDirectSDK/IDValidationErrorRange.m; sourceTree = "<group>"; };
+		2DED79E835DBB032CEA60116EBE42E54 /* IDPaymentContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPaymentContext.h; path = IngenicoDirectSDK/IDPaymentContext.h; sourceTree = "<group>"; };
+		2E88D9E6F3FD1AB2CA8C73266D9D040B /* IDBasicPaymentProducts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDBasicPaymentProducts.h; path = IngenicoDirectSDK/IDBasicPaymentProducts.h; sourceTree = "<group>"; };
+		315F1C90551F45E7E7AC5F0B6D77835D /* Pods-IngenicoDirectExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IngenicoDirectExample.debug.xcconfig"; sourceTree = "<group>"; };
+		31E0D555CD383ACA8FEADD42161F5056 /* IDValidatorFixedList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidatorFixedList.h; path = IngenicoDirectSDK/IDValidatorFixedList.h; sourceTree = "<group>"; };
+		332E23848A7FCB7070E810EAD0447261 /* IDAccountsOnFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDAccountsOnFile.m; path = IngenicoDirectSDK/IDAccountsOnFile.m; sourceTree = "<group>"; };
+		339B128C06FF1D35336701504509C862 /* IDMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDMacros.h; path = IngenicoDirectSDK/IDMacros.h; sourceTree = "<group>"; };
+		3407909208E111903E4759D92E6852F2 /* IDValidatorLuhn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidatorLuhn.m; path = IngenicoDirectSDK/IDValidatorLuhn.m; sourceTree = "<group>"; };
+		3A167B8498345BB64521AB9B4860BD90 /* IDBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDBase64.h; path = IngenicoDirectSDK/IDBase64.h; sourceTree = "<group>"; };
+		3ADA63A3D317BE5F164E96BA236BE49E /* IDBasicPaymentProducts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDBasicPaymentProducts.m; path = IngenicoDirectSDK/IDBasicPaymentProducts.m; sourceTree = "<group>"; };
+		3B3489133C4609CB508A535EF3333955 /* IDPaymentProductGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPaymentProductGroup.m; path = IngenicoDirectSDK/IDPaymentProductGroup.m; sourceTree = "<group>"; };
+		3BA8DAF7E55697FC5011E8C74EA87C85 /* IDValidationErrorTermsAndConditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidationErrorTermsAndConditions.m; path = IngenicoDirectSDK/IDValidationErrorTermsAndConditions.m; sourceTree = "<group>"; };
+		3C13314A326E5424E549B376C2C0E793 /* IDValidationError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidationError.m; path = IngenicoDirectSDK/IDValidationError.m; sourceTree = "<group>"; };
+		3C7E98B21EC1EB04037EB62DC86A8809 /* IDAccountOnFileDisplayHints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDAccountOnFileDisplayHints.h; path = IngenicoDirectSDK/IDAccountOnFileDisplayHints.h; sourceTree = "<group>"; };
+		3F3D35677A64836407246EF0D9D992FB /* IDValidationErrorAllowed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidationErrorAllowed.h; path = IngenicoDirectSDK/IDValidationErrorAllowed.h; sourceTree = "<group>"; };
+		3FC418691C7F30512C1AADD745FDAC35 /* IDValidationErrorLength.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidationErrorLength.h; path = IngenicoDirectSDK/IDValidationErrorLength.h; sourceTree = "<group>"; };
+		41BA540C1EF5E48C1A52CEFEE93FF732 /* IDValidationErrorExpirationDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidationErrorExpirationDate.h; path = IngenicoDirectSDK/IDValidationErrorExpirationDate.h; sourceTree = "<group>"; };
+		420F5ADE856D6CABEBCB654BBE3981A0 /* Pods-IngenicoDirectExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IngenicoDirectExample-resources.sh"; sourceTree = "<group>"; };
+		4258351F9B84F371645FB1BBC67CD016 /* IDBasicPaymentProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDBasicPaymentProduct.h; path = IngenicoDirectSDK/IDBasicPaymentProduct.h; sourceTree = "<group>"; };
+		4331847AED41E3C2D76CAD245E0A25B1 /* pp_logo_892.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = pp_logo_892.png; path = IngenicoDirectSDK/pp_logo_892.png; sourceTree = "<group>"; };
+		474D465035507C6C2209323A216130A4 /* IDPublicKeyResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPublicKeyResponse.m; path = IngenicoDirectSDK/IDPublicKeyResponse.m; sourceTree = "<group>"; };
+		4DE47D91B39133CE4E2DDFD1CCADDFFA /* IDPaymentContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPaymentContext.m; path = IngenicoDirectSDK/IDPaymentContext.m; sourceTree = "<group>"; };
+		4EE45DF297826AF09B98160F77E7639F /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		4F21132878F9611CAAE63440D50B0EC7 /* IDValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidator.m; path = IngenicoDirectSDK/IDValidator.m; sourceTree = "<group>"; };
+		51ABEA43E5765220006218EA0CA51DC2 /* IDDisplayElementsConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDDisplayElementsConverter.m; path = IngenicoDirectSDK/IDDisplayElementsConverter.m; sourceTree = "<group>"; };
+		51ECE5B08C6A8157B7F2270E6408332D /* IDValidationErrorNumericString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidationErrorNumericString.m; path = IngenicoDirectSDK/IDValidationErrorNumericString.m; sourceTree = "<group>"; };
+		5311BA4960CA157B0E9CA5584FD2E9C9 /* IDPaymentProductFields.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPaymentProductFields.m; path = IngenicoDirectSDK/IDPaymentProductFields.m; sourceTree = "<group>"; };
+		538EDA25F85940BBA79771D65A0429D7 /* IDLabelTemplateItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDLabelTemplateItem.h; path = IngenicoDirectSDK/IDLabelTemplateItem.h; sourceTree = "<group>"; };
+		53B85E4ADAD96E80E625281F29DC249E /* IDAccountOnFileAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDAccountOnFileAttributes.m; path = IngenicoDirectSDK/IDAccountOnFileAttributes.m; sourceTree = "<group>"; };
+		58751F6E9D76334CF658EC1B13413CC4 /* IDValidatorFixedList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidatorFixedList.m; path = IngenicoDirectSDK/IDValidatorFixedList.m; sourceTree = "<group>"; };
+		5886767CF2ACEC2E55995F22F168F735 /* IDValidatorRegularExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidatorRegularExpression.h; path = IngenicoDirectSDK/IDValidatorRegularExpression.h; sourceTree = "<group>"; };
+		58A3287DAF2151889C2A167E6E3CCFB0 /* IDValidationErrorInteger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidationErrorInteger.m; path = IngenicoDirectSDK/IDValidationErrorInteger.m; sourceTree = "<group>"; };
+		596131AF879B8BDC024DEDBC45C80383 /* IDC2SCommunicatorConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDC2SCommunicatorConfiguration.m; path = IngenicoDirectSDK/IDC2SCommunicatorConfiguration.m; sourceTree = "<group>"; };
+		59B1AC48DF4E5684226944408254B8C2 /* IDNetworkingActivityLoggerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDNetworkingActivityLoggerProtocol.h; path = IngenicoDirectSDK/IDNetworkingActivityLoggerProtocol.h; sourceTree = "<group>"; };
+		5AAB03EA95EB12DDFA82CBCAD80D74E4 /* IDPaymentProduct.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPaymentProduct.m; path = IngenicoDirectSDK/IDPaymentProduct.m; sourceTree = "<group>"; };
+		5B0F3A2341B7D68DA476A51EE3BF01F9 /* IDIINDetail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDIINDetail.m; path = IngenicoDirectSDK/IDIINDetail.m; sourceTree = "<group>"; };
+		5E21A59DD2148F55CA3146C93049F921 /* IDValidatorEmailAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidatorEmailAddress.m; path = IngenicoDirectSDK/IDValidatorEmailAddress.m; sourceTree = "<group>"; };
+		5E9991201778FBFF7CC5CBF3C42CAD1E /* IDValidationErrorLuhn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidationErrorLuhn.m; path = IngenicoDirectSDK/IDValidationErrorLuhn.m; sourceTree = "<group>"; };
+		60D99F8A379D59371E6AA6B462CE3305 /* IDPaymentContextConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPaymentContextConverter.h; path = IngenicoDirectSDK/IDPaymentContextConverter.h; sourceTree = "<group>"; };
+		6197A81465D802DA65E17439FD4F1C77 /* IDBasicPaymentProductsConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDBasicPaymentProductsConverter.m; path = IngenicoDirectSDK/IDBasicPaymentProductsConverter.m; sourceTree = "<group>"; };
+		62204B4F24187298C8B2B4C15B4B39C5 /* IDPaymentItemConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPaymentItemConverter.h; path = IngenicoDirectSDK/IDPaymentItemConverter.h; sourceTree = "<group>"; };
+		6315461175B678BBE7CB8404C3A617A7 /* Pods-IngenicoDirectExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IngenicoDirectExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		6488DFB8A01F1E76B27302585897A81C /* IDValidatorLength.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidatorLength.m; path = IngenicoDirectSDK/IDValidatorLength.m; sourceTree = "<group>"; };
+		649FB46FD0C98E70268865566DB0C6D9 /* IDIINDetailsResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDIINDetailsResponse.m; path = IngenicoDirectSDK/IDIINDetailsResponse.m; sourceTree = "<group>"; };
+		65BACCBAF7D5D37EA560DCD7D83CDA2C /* IDPaymentProductFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPaymentProductFields.h; path = IngenicoDirectSDK/IDPaymentProductFields.h; sourceTree = "<group>"; };
+		6828670F6A5E786E3175B806CA7FDD2E /* IDBasicPaymentItemConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDBasicPaymentItemConverter.h; path = IngenicoDirectSDK/IDBasicPaymentItemConverter.h; sourceTree = "<group>"; };
+		689AA9A6024ED426F8302D3A2D012003 /* IDJOSEEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDJOSEEncryptor.m; path = IngenicoDirectSDK/IDJOSEEncryptor.m; sourceTree = "<group>"; };
+		691103D77DB2259C46A71130D7555410 /* IDUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDUtil.m; path = IngenicoDirectSDK/IDUtil.m; sourceTree = "<group>"; };
+		6A269188AEE5D920FFD8366FEADC267C /* IDValidationErrorExpirationDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidationErrorExpirationDate.m; path = IngenicoDirectSDK/IDValidationErrorExpirationDate.m; sourceTree = "<group>"; };
+		6ADE0B7482788DCE82A72B26D6DD8289 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		706A59C05A7EDDB563F6297381D797CD /* IDValidationErrorNumericString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidationErrorNumericString.h; path = IngenicoDirectSDK/IDValidationErrorNumericString.h; sourceTree = "<group>"; };
+		72DFB0873906596469A65F46E1FB94FF /* IDValueMappingItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValueMappingItem.h; path = IngenicoDirectSDK/IDValueMappingItem.h; sourceTree = "<group>"; };
+		733267CCAF333995B1C752F9B749FE70 /* IDBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDBase64.m; path = IngenicoDirectSDK/IDBase64.m; sourceTree = "<group>"; };
+		737BE69AB74C90AAB8C977F9C2DC8979 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		73C99DDF59EAE75C251CC14E15F7E630 /* IDValidationErrorRegularExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidationErrorRegularExpression.h; path = IngenicoDirectSDK/IDValidationErrorRegularExpression.h; sourceTree = "<group>"; };
+		7448663420B87FB862D6D255858E652D /* IDAccountOnFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDAccountOnFile.h; path = IngenicoDirectSDK/IDAccountOnFile.h; sourceTree = "<group>"; };
+		74BE52CE150FDC59826055D2B31E8316 /* IDIINDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDIINDetail.h; path = IngenicoDirectSDK/IDIINDetail.h; sourceTree = "<group>"; };
+		7514F23A07195E420F956730DB4CABA8 /* IDValidatorLuhn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidatorLuhn.h; path = IngenicoDirectSDK/IDValidatorLuhn.h; sourceTree = "<group>"; };
+		77EEDB54D5B5D1723676447D257AF630 /* IDPaymentProductConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPaymentProductConverter.h; path = IngenicoDirectSDK/IDPaymentProductConverter.h; sourceTree = "<group>"; };
+		786A38CF1EAFD8951726D8E4F2C4EC18 /* IDSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDSession.h; path = IngenicoDirectSDK/IDSession.h; sourceTree = "<group>"; };
+		78D448B01D2B09D54B69750CC5B4A31F /* IDBasicPaymentProductConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDBasicPaymentProductConverter.m; path = IngenicoDirectSDK/IDBasicPaymentProductConverter.m; sourceTree = "<group>"; };
+		78E05177C7D910F09B8EC448790E246B /* IDJOSEEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDJOSEEncryptor.h; path = IngenicoDirectSDK/IDJOSEEncryptor.h; sourceTree = "<group>"; };
+		7A2F31AE6FFEFE72299E0154A58399F5 /* IDIINDetailsResponseConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDIINDetailsResponseConverter.h; path = IngenicoDirectSDK/IDIINDetailsResponseConverter.h; sourceTree = "<group>"; };
+		7BCF4D98FF46FAEA0D96C862920DD78F /* IDValidatorExpirationDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidatorExpirationDate.m; path = IngenicoDirectSDK/IDValidatorExpirationDate.m; sourceTree = "<group>"; };
+		7BE7821ECED82D77E1864274FF76F2F9 /* IDPaymentProductConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPaymentProductConverter.m; path = IngenicoDirectSDK/IDPaymentProductConverter.m; sourceTree = "<group>"; };
+		7C0E19C8684F659A3FB9595E0FC212E3 /* IDPaymentAmountOfMoney.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPaymentAmountOfMoney.h; path = IngenicoDirectSDK/IDPaymentAmountOfMoney.h; sourceTree = "<group>"; };
+		7DE8DDE6BCBA072A70AB6C7D90DF8183 /* IDStringFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDStringFormatter.m; path = IngenicoDirectSDK/IDStringFormatter.m; sourceTree = "<group>"; };
+		7E40DBB3ABFE2D044216FA1C5B7D4416 /* Pods-IngenicoDirectExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IngenicoDirectExample.release.xcconfig"; sourceTree = "<group>"; };
+		7E860449084C42A27D7D6312C89795CE /* IDAccountsOnFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDAccountsOnFile.h; path = IngenicoDirectSDK/IDAccountsOnFile.h; sourceTree = "<group>"; };
+		800D1925A8EFCC20B1BE2FDB9CD4D51A /* IDRegion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDRegion.h; path = IngenicoDirectSDK/IDRegion.h; sourceTree = "<group>"; };
+		80ED3E07D5E12679DC48829C36A7A337 /* IDBasicPaymentProductGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDBasicPaymentProductGroup.h; path = IngenicoDirectSDK/IDBasicPaymentProductGroup.h; sourceTree = "<group>"; };
+		811D8194EFDBB51978CAFF9DADBD8E12 /* IDBasicPaymentProductGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDBasicPaymentProductGroup.m; path = IngenicoDirectSDK/IDBasicPaymentProductGroup.m; sourceTree = "<group>"; };
+		82C8DB40DFB0AB6DC8943C62E7E62452 /* IDFormElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDFormElement.h; path = IngenicoDirectSDK/IDFormElement.h; sourceTree = "<group>"; };
+		8399026905C187E07993DCBE54A983C7 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		844B0EB5EE4726EF21F5067682990A3E /* IDDisplayElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDDisplayElement.h; path = IngenicoDirectSDK/IDDisplayElement.h; sourceTree = "<group>"; };
+		84639F384FABF75D9CE85A7CC4D26C7D /* IDValidationErrorInteger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidationErrorInteger.h; path = IngenicoDirectSDK/IDValidationErrorInteger.h; sourceTree = "<group>"; };
+		863659CDB9CC216782109F445CB6025A /* IDPaymentProductGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPaymentProductGroup.h; path = IngenicoDirectSDK/IDPaymentProductGroup.h; sourceTree = "<group>"; };
+		88062F2E2D469E114525A91443331189 /* IDValueMappingItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValueMappingItem.m; path = IngenicoDirectSDK/IDValueMappingItem.m; sourceTree = "<group>"; };
+		880A46D22E5A867BDC3DFA64019B6497 /* IDValidatorTermsAndConditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidatorTermsAndConditions.h; path = IngenicoDirectSDK/IDValidatorTermsAndConditions.h; sourceTree = "<group>"; };
+		89CCF5A3A75083FE77B26F130E73A6B9 /* IDAssetManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDAssetManager.h; path = IngenicoDirectSDK/IDAssetManager.h; sourceTree = "<group>"; };
+		8AF2594EED2B9BAB7320AA17BDF195A1 /* libPods-IngenicoDirectExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IngenicoDirectExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4772FEBFF980D4CB782A07E531D3F6 /* IDValidatorIBAN.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidatorIBAN.m; path = IngenicoDirectSDK/IDValidatorIBAN.m; sourceTree = "<group>"; };
+		8CD0AB54DAB88D24EB3BDD0681508ADA /* IDToolTip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDToolTip.m; path = IngenicoDirectSDK/IDToolTip.m; sourceTree = "<group>"; };
+		8D8B52A9942CDB384078C11EA0620A0A /* IDIINDetailsResponseConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDIINDetailsResponseConverter.m; path = IngenicoDirectSDK/IDIINDetailsResponseConverter.m; sourceTree = "<group>"; };
+		8F4C05A541FB0AA0981F9910F42CD882 /* IDNetworkingActivityLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDNetworkingActivityLogger.m; path = IngenicoDirectSDK/IDNetworkingActivityLogger.m; sourceTree = "<group>"; };
+		8F973ECC988B8F47E43A858355AECD4A /* IDPaymentProductFieldDisplayHints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPaymentProductFieldDisplayHints.m; path = IngenicoDirectSDK/IDPaymentProductFieldDisplayHints.m; sourceTree = "<group>"; };
+		91E6C93D4227AF214A8F1DA50B0BC5B1 /* IDPaymentProduct302SpecificData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPaymentProduct302SpecificData.h; path = IngenicoDirectSDK/IDPaymentProduct302SpecificData.h; sourceTree = "<group>"; };
+		928052B9FF742D866D31C46FDD34B248 /* IDToolTip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDToolTip.h; path = IngenicoDirectSDK/IDToolTip.h; sourceTree = "<group>"; };
+		9659E9CA2302457912C91D6862B72439 /* IDPaymentRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPaymentRequest.h; path = IngenicoDirectSDK/IDPaymentRequest.h; sourceTree = "<group>"; };
+		989D5C66C398730ADB3C095096AB8DB4 /* IDAFNetworkingWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDAFNetworkingWrapper.m; path = IngenicoDirectSDK/IDAFNetworkingWrapper.m; sourceTree = "<group>"; };
+		99DA11DA530F55A88B3D8A559065719E /* IDDisplayElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDDisplayElement.m; path = IngenicoDirectSDK/IDDisplayElement.m; sourceTree = "<group>"; };
+		9A8842CBC126FE371F27601860C168D6 /* IDPreparedPaymentRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPreparedPaymentRequest.h; path = IngenicoDirectSDK/IDPreparedPaymentRequest.h; sourceTree = "<group>"; };
+		9BC0C206975463B01D17417622EDE170 /* IDValidationErrorRegularExpression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidationErrorRegularExpression.m; path = IngenicoDirectSDK/IDValidationErrorRegularExpression.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DFD11097223F9CFE1D772272C6EF59A /* IDFormElementType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDFormElementType.h; path = IngenicoDirectSDK/IDFormElementType.h; sourceTree = "<group>"; };
+		9F6954AC5FC7AE84C13C42D1A1F37878 /* IDBasicPaymentProduct.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDBasicPaymentProduct.m; path = IngenicoDirectSDK/IDBasicPaymentProduct.m; sourceTree = "<group>"; };
+		A08A83F33ABA1F2125E0846830A2707A /* IngenicoDirectSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = IngenicoDirectSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0A8CA2DB65F50571F4F2190218E3DF1 /* IDBasicPaymentProductGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDBasicPaymentProductGroups.h; path = IngenicoDirectSDK/IDBasicPaymentProductGroups.h; sourceTree = "<group>"; };
+		A3A6028492814CECEB0B30617BF3D15F /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		A50E857516494C23CEC4D43E4476160A /* IDBasicPaymentProductsConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDBasicPaymentProductsConverter.h; path = IngenicoDirectSDK/IDBasicPaymentProductsConverter.h; sourceTree = "<group>"; };
+		A511AE805562A28A179C6FF2B363362C /* IDValidatorTermsAndConditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidatorTermsAndConditions.m; path = IngenicoDirectSDK/IDValidatorTermsAndConditions.m; sourceTree = "<group>"; };
+		A5A1614B1E9E8C828773F1FB48912E00 /* IDLabelTemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDLabelTemplate.h; path = IngenicoDirectSDK/IDLabelTemplate.h; sourceTree = "<group>"; };
+		A75D30CFFD23CE0192A687B28CB41E67 /* IDPaymentProductNetworks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPaymentProductNetworks.h; path = IngenicoDirectSDK/IDPaymentProductNetworks.h; sourceTree = "<group>"; };
+		A877C498909F966B4DAAFE5F4CE44616 /* IDUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDUtil.h; path = IngenicoDirectSDK/IDUtil.h; sourceTree = "<group>"; };
+		A8ED0BF8BC6A8F8886A44844051207EF /* IDPaymentItems.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPaymentItems.m; path = IngenicoDirectSDK/IDPaymentItems.m; sourceTree = "<group>"; };
+		AED9224E0592EC6F5FC968AADD82D5D2 /* IDEnvironment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDEnvironment.h; path = IngenicoDirectSDK/IDEnvironment.h; sourceTree = "<group>"; };
+		AFBD2578A25506B860A746C596729AA6 /* IngenicoDirectSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IngenicoDirectSDK-dummy.m"; sourceTree = "<group>"; };
+		B172E31CEB306D978D16DD163BD998B9 /* IDValidationErrorIsRequired.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidationErrorIsRequired.h; path = IngenicoDirectSDK/IDValidationErrorIsRequired.h; sourceTree = "<group>"; };
+		B204BF8A3BA13C8C2E650F124C085A1B /* IDValidationErrorLuhn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidationErrorLuhn.h; path = IngenicoDirectSDK/IDValidationErrorLuhn.h; sourceTree = "<group>"; };
+		B25A3B453E4E9B6883FB39E9918C8AAC /* IDPaymentProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPaymentProduct.h; path = IngenicoDirectSDK/IDPaymentProduct.h; sourceTree = "<group>"; };
+		B25A7A0E39C86D9EDCBCE8AA0E89C163 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		B2B4EE364C9F2AF4D43AD61D75EAE69C /* IDValidationErrorIBAN.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidationErrorIBAN.m; path = IngenicoDirectSDK/IDValidationErrorIBAN.m; sourceTree = "<group>"; };
+		B360C06E6295C02C17C963176E6C5F1F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B47C61C9A7B76894B8FD4177D13562E0 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		B4D0BD7FC1B66B10BDF6080E96CA09E3 /* IDNetworkingActivityLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDNetworkingActivityLogger.h; path = IngenicoDirectSDK/IDNetworkingActivityLogger.h; sourceTree = "<group>"; };
+		B53A81AADB1EC0BB23C1C75A35077895 /* IDC2SCommunicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDC2SCommunicator.m; path = IngenicoDirectSDK/IDC2SCommunicator.m; sourceTree = "<group>"; };
+		B53DB08A13BC9F747A432BC5325AB1F4 /* IDIINDetailsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDIINDetailsResponse.h; path = IngenicoDirectSDK/IDIINDetailsResponse.h; sourceTree = "<group>"; };
+		B543859712C7D9D9C0BD7A335B148A29 /* IDNetworkingActivityConsoleLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDNetworkingActivityConsoleLogger.m; path = IngenicoDirectSDK/IDNetworkingActivityConsoleLogger.m; sourceTree = "<group>"; };
+		B64B523E05F815DFB01B48FBBECB7D2B /* IDPaymentProduct302SpecificData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPaymentProduct302SpecificData.m; path = IngenicoDirectSDK/IDPaymentProduct302SpecificData.m; sourceTree = "<group>"; };
+		B709B9B640F411F943E8677C5DB00CE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = IngenicoDirectSDK/Info.plist; sourceTree = "<group>"; };
+		B8CBB7D508F3426A305B12E5E2E97A01 /* IDAccountOnFileAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDAccountOnFileAttribute.h; path = IngenicoDirectSDK/IDAccountOnFileAttribute.h; sourceTree = "<group>"; };
+		B959094FDE4D13AE6487AB19A4E1D2E2 /* pp_logo_402.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = pp_logo_402.png; path = IngenicoDirectSDK/pp_logo_402.png; sourceTree = "<group>"; };
+		B9AE8D272D0A61B8A7F19994D78170D5 /* IDBasicPaymentProductGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDBasicPaymentProductGroups.m; path = IngenicoDirectSDK/IDBasicPaymentProductGroups.m; sourceTree = "<group>"; };
+		BAA627003473D2EA546F293691075218 /* IDLabelTemplate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDLabelTemplate.m; path = IngenicoDirectSDK/IDLabelTemplate.m; sourceTree = "<group>"; };
+		BD7725F5283C6A723DBB17E6678646F5 /* Pods-IngenicoDirectExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IngenicoDirectExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE1151E6BF0DF223AE5EF87809703C2E /* IDC2SCommunicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDC2SCommunicator.h; path = IngenicoDirectSDK/IDC2SCommunicator.h; sourceTree = "<group>"; };
+		BFBF861E3EEF28F7A1F76543EF1A3BD2 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		BFCD3AED42CA6E5521AA38FCF6B60FAF /* IDValidationErrorIsRequired.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidationErrorIsRequired.m; path = IngenicoDirectSDK/IDValidationErrorIsRequired.m; sourceTree = "<group>"; };
+		C010A6F4773FECF9E17C51AE272E6E9B /* IDPaymentProductFieldDisplayHints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPaymentProductFieldDisplayHints.h; path = IngenicoDirectSDK/IDPaymentProductFieldDisplayHints.h; sourceTree = "<group>"; };
+		C04AB04A5EE9A9519913F3A2CDB6742F /* IDValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidator.h; path = IngenicoDirectSDK/IDValidator.h; sourceTree = "<group>"; };
+		C083D34F72CECB8215E3FA5D69FF866C /* IDPaymentProductNetworks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPaymentProductNetworks.m; path = IngenicoDirectSDK/IDPaymentProductNetworks.m; sourceTree = "<group>"; };
+		C25708F14BB9680B71152A92E87C9FFA /* IDPaymentItems.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPaymentItems.h; path = IngenicoDirectSDK/IDPaymentItems.h; sourceTree = "<group>"; };
+		C28CAB3B2B27CDBF91535CF5A282CB1E /* IDNetworkingActivityConsoleLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDNetworkingActivityConsoleLogger.h; path = IngenicoDirectSDK/IDNetworkingActivityConsoleLogger.h; sourceTree = "<group>"; };
+		C2CF78530ADD0A393914C3BD93F4741C /* IngenicoDirectSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IngenicoDirectSDK.h; path = IngenicoDirectSDK/IngenicoDirectSDK.h; sourceTree = "<group>"; };
+		C31C835759CA217E175E6F6BB9099E37 /* IDValidationErrorFixedList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidationErrorFixedList.m; path = IngenicoDirectSDK/IDValidationErrorFixedList.m; sourceTree = "<group>"; };
+		C4EE321563C1371BDA234D5E919E7E56 /* Pods-IngenicoDirectExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IngenicoDirectExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C66D1B73598E9104AF6F3605CB2AFC1C /* libPods-IngenicoDirectExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IngenicoDirectExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89F865FD2815780D8EDC2475BC3AC29 /* Pods-IngenicoDirectExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IngenicoDirectExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C99A92CE9F019FDFF99745F5E890CBB3 /* Pods-IngenicoDirectExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IngenicoDirectExampleTests-dummy.m"; sourceTree = "<group>"; };
+		CD78FAA4F57E4C8A356C5A23246A495F /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		CE76BF8F29603CB95117B2940D71A1CE /* IDNetworkingWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDNetworkingWrapper.m; path = IngenicoDirectSDK/IDNetworkingWrapper.m; sourceTree = "<group>"; };
+		CF9A4D26EB96C02618ACD618669FB4DA /* IDValidationErrorEmailAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidationErrorEmailAddress.m; path = IngenicoDirectSDK/IDValidationErrorEmailAddress.m; sourceTree = "<group>"; };
+		D1D6F9D9DB772E86ADBB3B9BC48A280B /* IngenicoDirectSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IngenicoDirectSDK-prefix.pch"; sourceTree = "<group>"; };
+		D27D5D54EF85707378826F5A7F3129BD /* IDValidationErrorFixedList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidationErrorFixedList.h; path = IngenicoDirectSDK/IDValidationErrorFixedList.h; sourceTree = "<group>"; };
+		D6F8FEE3D2D9B72B19BE797FF9C7E519 /* IDPaymentProductField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPaymentProductField.h; path = IngenicoDirectSDK/IDPaymentProductField.h; sourceTree = "<group>"; };
+		DA2A3204EAD7650D2A32CBF527C476B0 /* IDBasicPaymentItemConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDBasicPaymentItemConverter.m; path = IngenicoDirectSDK/IDBasicPaymentItemConverter.m; sourceTree = "<group>"; };
+		DA3B0C121B7E5A0A0393D96EAB2677CE /* IDValidationErrorLength.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidationErrorLength.m; path = IngenicoDirectSDK/IDValidationErrorLength.m; sourceTree = "<group>"; };
+		DB3D1B6942B56EAE36702A37960632F3 /* IDValidationErrorEmailAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidationErrorEmailAddress.h; path = IngenicoDirectSDK/IDValidationErrorEmailAddress.h; sourceTree = "<group>"; };
+		DB8A3916435F45ED284B0715B0B0155C /* IDC2SCommunicatorConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDC2SCommunicatorConfiguration.h; path = IngenicoDirectSDK/IDC2SCommunicatorConfiguration.h; sourceTree = "<group>"; };
+		DDDCF1CF24E5C4E7AD16041776C98793 /* IDSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDSession.m; path = IngenicoDirectSDK/IDSession.m; sourceTree = "<group>"; };
+		DE8A52382D53690F2330D3B503704EF9 /* IDJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDJSON.m; path = IngenicoDirectSDK/IDJSON.m; sourceTree = "<group>"; };
+		DF7146BEF11154787CFF92B6243E5F81 /* IDValidationErrorAllowed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidationErrorAllowed.m; path = IngenicoDirectSDK/IDValidationErrorAllowed.m; sourceTree = "<group>"; };
+		DFEC4F63075836E122794D80BCB32F46 /* IDValidatorExpirationDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidatorExpirationDate.h; path = IngenicoDirectSDK/IDValidatorExpirationDate.h; sourceTree = "<group>"; };
+		E2AD3E597F907E5B3B4FF305F02A75E1 /* IDFormElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDFormElement.m; path = IngenicoDirectSDK/IDFormElement.m; sourceTree = "<group>"; };
+		E3215BC49532E489B6C7BB0AE9E2835B /* IDBasicPaymentProductConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDBasicPaymentProductConverter.h; path = IngenicoDirectSDK/IDBasicPaymentProductConverter.h; sourceTree = "<group>"; };
+		E53F251231306653704A5432E1D79259 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		E66C685D15858D18AEB754F2EF98E536 /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		E779CB93AF8D7BAAA1CA035658450D21 /* IDValidationError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidationError.h; path = IngenicoDirectSDK/IDValidationError.h; sourceTree = "<group>"; };
+		E97D43C46A45EE515A4DA3AF94398441 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98A1CECA1398030F501D0BE8EBCC16B /* IDAccountOnFileAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDAccountOnFileAttribute.m; path = IngenicoDirectSDK/IDAccountOnFileAttribute.m; sourceTree = "<group>"; };
+		EB6E37EF6CD3A72C8B52020F80F7B8E6 /* IDValidators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidators.h; path = IngenicoDirectSDK/IDValidators.h; sourceTree = "<group>"; };
+		EBE9EF848C5F146820F90EAD2AF276B7 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		F05B386E5DC9A2D75E524E050C6F9993 /* IDDataRestrictions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDDataRestrictions.h; path = IngenicoDirectSDK/IDDataRestrictions.h; sourceTree = "<group>"; };
+		F3E199B8BCB34767A64D7B9952D100AA /* IDType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDType.h; path = IngenicoDirectSDK/IDType.h; sourceTree = "<group>"; };
+		F41024C9644FE175208D60B1D3F6031E /* IDEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDEncryptor.m; path = IngenicoDirectSDK/IDEncryptor.m; sourceTree = "<group>"; };
+		F468B02739710B5D4D4AA96964C51F4F /* IDLabelTemplateItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDLabelTemplateItem.m; path = IngenicoDirectSDK/IDLabelTemplateItem.m; sourceTree = "<group>"; };
+		F4FA76E852E1019231F8EC376D3C0924 /* IDPaymentContextConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPaymentContextConverter.m; path = IngenicoDirectSDK/IDPaymentContextConverter.m; sourceTree = "<group>"; };
+		F516B2968244BE0B3B0966D6FB789E54 /* IDValidators.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidators.m; path = IngenicoDirectSDK/IDValidators.m; sourceTree = "<group>"; };
+		F5D4077DAE168B0F3DCC78108241BDDE /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		F5F8128E960891249C624C3190F38877 /* IDValidatorRegularExpression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDValidatorRegularExpression.m; path = IngenicoDirectSDK/IDValidatorRegularExpression.m; sourceTree = "<group>"; };
+		F7F2616C30BC110E9F6100BD075D9D20 /* IDJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDJSON.h; path = IngenicoDirectSDK/IDJSON.h; sourceTree = "<group>"; };
+		F963826D3C605BED89383C82F8AF195D /* IDValidationErrorIBAN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDValidationErrorIBAN.h; path = IngenicoDirectSDK/IDValidationErrorIBAN.h; sourceTree = "<group>"; };
+		F9B3A425537D84F17B68F57FB7FD76C5 /* Pods-IngenicoDirectExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IngenicoDirectExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		FAEBCBBF8A0DD8966B536A9FBCB89C1C /* IDPublicKeyResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPublicKeyResponse.h; path = IngenicoDirectSDK/IDPublicKeyResponse.h; sourceTree = "<group>"; };
+		FBF993629441FB0BFE238D4B2E9FA21C /* IngenicoDirectSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IngenicoDirectSDK.release.xcconfig; sourceTree = "<group>"; };
+		FDB796DF89C9C6CB15F80C2535AD5B8B /* IDPaymentItemDisplayHints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPaymentItemDisplayHints.h; path = IngenicoDirectSDK/IDPaymentItemDisplayHints.h; sourceTree = "<group>"; };
+		FDEFA38F309AE5D36A9AA28B6F6CADC5 /* IDPaymentProductField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPaymentProductField.m; path = IngenicoDirectSDK/IDPaymentProductField.m; sourceTree = "<group>"; };
+		FE72F2061701159E5CB234DCC88325D2 /* IDSDKConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDSDKConstants.h; path = IngenicoDirectSDK/IDSDKConstants.h; sourceTree = "<group>"; };
+		FF8615EE224F2A6B2F148AD046C56483 /* IDAssetManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDAssetManager.m; path = IngenicoDirectSDK/IDAssetManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D19434270AFB502EED3C327DF441D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70010619EE67FAA5998927DE2714A46F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9978487C9DE5F255B6196E88086B3FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E720C0F9067C00DE37A50D08C59EEC15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7110C3E5F52013B3F468097ACFE97A /* IngenicoDirectSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7448663420B87FB862D6D255858E652D /* IDAccountOnFile.h */,
+				0648E2951F0FEDCA6D1D6DFB59E3DF60 /* IDAccountOnFile.m */,
+				B8CBB7D508F3426A305B12E5E2E97A01 /* IDAccountOnFileAttribute.h */,
+				E98A1CECA1398030F501D0BE8EBCC16B /* IDAccountOnFileAttribute.m */,
+				07936D2DF4DCD7B04DE3108966864467 /* IDAccountOnFileAttributes.h */,
+				53B85E4ADAD96E80E625281F29DC249E /* IDAccountOnFileAttributes.m */,
+				1763095BE5FABF7DF44FB2356DFFFACF /* IDAccountOnFileAttributeStatus.h */,
+				3C7E98B21EC1EB04037EB62DC86A8809 /* IDAccountOnFileDisplayHints.h */,
+				23062BDB3C14A98A729984B9AD1CB8C8 /* IDAccountOnFileDisplayHints.m */,
+				7E860449084C42A27D7D6312C89795CE /* IDAccountsOnFile.h */,
+				332E23848A7FCB7070E810EAD0447261 /* IDAccountsOnFile.m */,
+				28A119F73DE4D695F743EEA9EF1702F0 /* IDAFNetworkingWrapper.h */,
+				989D5C66C398730ADB3C095096AB8DB4 /* IDAFNetworkingWrapper.m */,
+				89CCF5A3A75083FE77B26F130E73A6B9 /* IDAssetManager.h */,
+				FF8615EE224F2A6B2F148AD046C56483 /* IDAssetManager.m */,
+				3A167B8498345BB64521AB9B4860BD90 /* IDBase64.h */,
+				733267CCAF333995B1C752F9B749FE70 /* IDBase64.m */,
+				0B32C2916CEF7A712D5A0C31B849D432 /* IDBasicPaymentItem.h */,
+				6828670F6A5E786E3175B806CA7FDD2E /* IDBasicPaymentItemConverter.h */,
+				DA2A3204EAD7650D2A32CBF527C476B0 /* IDBasicPaymentItemConverter.m */,
+				4258351F9B84F371645FB1BBC67CD016 /* IDBasicPaymentProduct.h */,
+				9F6954AC5FC7AE84C13C42D1A1F37878 /* IDBasicPaymentProduct.m */,
+				E3215BC49532E489B6C7BB0AE9E2835B /* IDBasicPaymentProductConverter.h */,
+				78D448B01D2B09D54B69750CC5B4A31F /* IDBasicPaymentProductConverter.m */,
+				80ED3E07D5E12679DC48829C36A7A337 /* IDBasicPaymentProductGroup.h */,
+				811D8194EFDBB51978CAFF9DADBD8E12 /* IDBasicPaymentProductGroup.m */,
+				A0A8CA2DB65F50571F4F2190218E3DF1 /* IDBasicPaymentProductGroups.h */,
+				B9AE8D272D0A61B8A7F19994D78170D5 /* IDBasicPaymentProductGroups.m */,
+				2E88D9E6F3FD1AB2CA8C73266D9D040B /* IDBasicPaymentProducts.h */,
+				3ADA63A3D317BE5F164E96BA236BE49E /* IDBasicPaymentProducts.m */,
+				A50E857516494C23CEC4D43E4476160A /* IDBasicPaymentProductsConverter.h */,
+				6197A81465D802DA65E17439FD4F1C77 /* IDBasicPaymentProductsConverter.m */,
+				BE1151E6BF0DF223AE5EF87809703C2E /* IDC2SCommunicator.h */,
+				B53A81AADB1EC0BB23C1C75A35077895 /* IDC2SCommunicator.m */,
+				DB8A3916435F45ED284B0715B0B0155C /* IDC2SCommunicatorConfiguration.h */,
+				596131AF879B8BDC024DEDBC45C80383 /* IDC2SCommunicatorConfiguration.m */,
+				F05B386E5DC9A2D75E524E050C6F9993 /* IDDataRestrictions.h */,
+				1D7C8D1DF349C2B99EF92A6CED65389D /* IDDataRestrictions.m */,
+				844B0EB5EE4726EF21F5067682990A3E /* IDDisplayElement.h */,
+				99DA11DA530F55A88B3D8A559065719E /* IDDisplayElement.m */,
+				09E1DDC138D0B33306AEB8165B95A6ED /* IDDisplayElementsConverter.h */,
+				51ABEA43E5765220006218EA0CA51DC2 /* IDDisplayElementsConverter.m */,
+				015663975C786DEEC140997CBA6E9F67 /* IDDisplayElementType.h */,
+				0CE961CC474DC49A7F048A664DFAB47B /* IDEncryptor.h */,
+				F41024C9644FE175208D60B1D3F6031E /* IDEncryptor.m */,
+				AED9224E0592EC6F5FC968AADD82D5D2 /* IDEnvironment.h */,
+				82C8DB40DFB0AB6DC8943C62E7E62452 /* IDFormElement.h */,
+				E2AD3E597F907E5B3B4FF305F02A75E1 /* IDFormElement.m */,
+				9DFD11097223F9CFE1D772272C6EF59A /* IDFormElementType.h */,
+				74BE52CE150FDC59826055D2B31E8316 /* IDIINDetail.h */,
+				5B0F3A2341B7D68DA476A51EE3BF01F9 /* IDIINDetail.m */,
+				B53DB08A13BC9F747A432BC5325AB1F4 /* IDIINDetailsResponse.h */,
+				649FB46FD0C98E70268865566DB0C6D9 /* IDIINDetailsResponse.m */,
+				7A2F31AE6FFEFE72299E0154A58399F5 /* IDIINDetailsResponseConverter.h */,
+				8D8B52A9942CDB384078C11EA0620A0A /* IDIINDetailsResponseConverter.m */,
+				2932C673BCDEDFC55C1B5808EDC8DCBB /* IDIINStatus.h */,
+				78E05177C7D910F09B8EC448790E246B /* IDJOSEEncryptor.h */,
+				689AA9A6024ED426F8302D3A2D012003 /* IDJOSEEncryptor.m */,
+				F7F2616C30BC110E9F6100BD075D9D20 /* IDJSON.h */,
+				DE8A52382D53690F2330D3B503704EF9 /* IDJSON.m */,
+				A5A1614B1E9E8C828773F1FB48912E00 /* IDLabelTemplate.h */,
+				BAA627003473D2EA546F293691075218 /* IDLabelTemplate.m */,
+				538EDA25F85940BBA79771D65A0429D7 /* IDLabelTemplateItem.h */,
+				F468B02739710B5D4D4AA96964C51F4F /* IDLabelTemplateItem.m */,
+				339B128C06FF1D35336701504509C862 /* IDMacros.h */,
+				C28CAB3B2B27CDBF91535CF5A282CB1E /* IDNetworkingActivityConsoleLogger.h */,
+				B543859712C7D9D9C0BD7A335B148A29 /* IDNetworkingActivityConsoleLogger.m */,
+				B4D0BD7FC1B66B10BDF6080E96CA09E3 /* IDNetworkingActivityLogger.h */,
+				8F4C05A541FB0AA0981F9910F42CD882 /* IDNetworkingActivityLogger.m */,
+				59B1AC48DF4E5684226944408254B8C2 /* IDNetworkingActivityLoggerProtocol.h */,
+				0F96290E02F36488C09B3D0E12CA6C21 /* IDNetworkingWrapper.h */,
+				CE76BF8F29603CB95117B2940D71A1CE /* IDNetworkingWrapper.m */,
+				7C0E19C8684F659A3FB9595E0FC212E3 /* IDPaymentAmountOfMoney.h */,
+				29898F365481F047858967AD85CD2BD5 /* IDPaymentAmountOfMoney.m */,
+				2DED79E835DBB032CEA60116EBE42E54 /* IDPaymentContext.h */,
+				4DE47D91B39133CE4E2DDFD1CCADDFFA /* IDPaymentContext.m */,
+				60D99F8A379D59371E6AA6B462CE3305 /* IDPaymentContextConverter.h */,
+				F4FA76E852E1019231F8EC376D3C0924 /* IDPaymentContextConverter.m */,
+				106297CC4F1CD9F077CB6E86A9348CDE /* IDPaymentItem.h */,
+				62204B4F24187298C8B2B4C15B4B39C5 /* IDPaymentItemConverter.h */,
+				04799D4C4BA0E8206D861FA88FD74305 /* IDPaymentItemConverter.m */,
+				FDB796DF89C9C6CB15F80C2535AD5B8B /* IDPaymentItemDisplayHints.h */,
+				28657B6F0D0A63C862A67F130990274E /* IDPaymentItemDisplayHints.m */,
+				C25708F14BB9680B71152A92E87C9FFA /* IDPaymentItems.h */,
+				A8ED0BF8BC6A8F8886A44844051207EF /* IDPaymentItems.m */,
+				B25A3B453E4E9B6883FB39E9918C8AAC /* IDPaymentProduct.h */,
+				5AAB03EA95EB12DDFA82CBCAD80D74E4 /* IDPaymentProduct.m */,
+				91E6C93D4227AF214A8F1DA50B0BC5B1 /* IDPaymentProduct302SpecificData.h */,
+				B64B523E05F815DFB01B48FBBECB7D2B /* IDPaymentProduct302SpecificData.m */,
+				77EEDB54D5B5D1723676447D257AF630 /* IDPaymentProductConverter.h */,
+				7BE7821ECED82D77E1864274FF76F2F9 /* IDPaymentProductConverter.m */,
+				D6F8FEE3D2D9B72B19BE797FF9C7E519 /* IDPaymentProductField.h */,
+				FDEFA38F309AE5D36A9AA28B6F6CADC5 /* IDPaymentProductField.m */,
+				C010A6F4773FECF9E17C51AE272E6E9B /* IDPaymentProductFieldDisplayHints.h */,
+				8F973ECC988B8F47E43A858355AECD4A /* IDPaymentProductFieldDisplayHints.m */,
+				65BACCBAF7D5D37EA560DCD7D83CDA2C /* IDPaymentProductFields.h */,
+				5311BA4960CA157B0E9CA5584FD2E9C9 /* IDPaymentProductFields.m */,
+				863659CDB9CC216782109F445CB6025A /* IDPaymentProductGroup.h */,
+				3B3489133C4609CB508A535EF3333955 /* IDPaymentProductGroup.m */,
+				A75D30CFFD23CE0192A687B28CB41E67 /* IDPaymentProductNetworks.h */,
+				C083D34F72CECB8215E3FA5D69FF866C /* IDPaymentProductNetworks.m */,
+				9659E9CA2302457912C91D6862B72439 /* IDPaymentRequest.h */,
+				19C6D7C8CB7705B797BD990FEF3EA4D1 /* IDPaymentRequest.m */,
+				287702D02A4FBD45554F6BF9456DE58E /* IDPreferredInputType.h */,
+				9A8842CBC126FE371F27601860C168D6 /* IDPreparedPaymentRequest.h */,
+				01D1A0160DDDDDEA4C3CDD536E6C0890 /* IDPreparedPaymentRequest.m */,
+				FAEBCBBF8A0DD8966B536A9FBCB89C1C /* IDPublicKeyResponse.h */,
+				474D465035507C6C2209323A216130A4 /* IDPublicKeyResponse.m */,
+				800D1925A8EFCC20B1BE2FDB9CD4D51A /* IDRegion.h */,
+				FE72F2061701159E5CB234DCC88325D2 /* IDSDKConstants.h */,
+				786A38CF1EAFD8951726D8E4F2C4EC18 /* IDSession.h */,
+				DDDCF1CF24E5C4E7AD16041776C98793 /* IDSession.m */,
+				0B16E2DF17E82013049D273346E32ECF /* IDStringFormatter.h */,
+				7DE8DDE6BCBA072A70AB6C7D90DF8183 /* IDStringFormatter.m */,
+				928052B9FF742D866D31C46FDD34B248 /* IDToolTip.h */,
+				8CD0AB54DAB88D24EB3BDD0681508ADA /* IDToolTip.m */,
+				F3E199B8BCB34767A64D7B9952D100AA /* IDType.h */,
+				A877C498909F966B4DAAFE5F4CE44616 /* IDUtil.h */,
+				691103D77DB2259C46A71130D7555410 /* IDUtil.m */,
+				E779CB93AF8D7BAAA1CA035658450D21 /* IDValidationError.h */,
+				3C13314A326E5424E549B376C2C0E793 /* IDValidationError.m */,
+				3F3D35677A64836407246EF0D9D992FB /* IDValidationErrorAllowed.h */,
+				DF7146BEF11154787CFF92B6243E5F81 /* IDValidationErrorAllowed.m */,
+				DB3D1B6942B56EAE36702A37960632F3 /* IDValidationErrorEmailAddress.h */,
+				CF9A4D26EB96C02618ACD618669FB4DA /* IDValidationErrorEmailAddress.m */,
+				41BA540C1EF5E48C1A52CEFEE93FF732 /* IDValidationErrorExpirationDate.h */,
+				6A269188AEE5D920FFD8366FEADC267C /* IDValidationErrorExpirationDate.m */,
+				D27D5D54EF85707378826F5A7F3129BD /* IDValidationErrorFixedList.h */,
+				C31C835759CA217E175E6F6BB9099E37 /* IDValidationErrorFixedList.m */,
+				F963826D3C605BED89383C82F8AF195D /* IDValidationErrorIBAN.h */,
+				B2B4EE364C9F2AF4D43AD61D75EAE69C /* IDValidationErrorIBAN.m */,
+				84639F384FABF75D9CE85A7CC4D26C7D /* IDValidationErrorInteger.h */,
+				58A3287DAF2151889C2A167E6E3CCFB0 /* IDValidationErrorInteger.m */,
+				B172E31CEB306D978D16DD163BD998B9 /* IDValidationErrorIsRequired.h */,
+				BFCD3AED42CA6E5521AA38FCF6B60FAF /* IDValidationErrorIsRequired.m */,
+				3FC418691C7F30512C1AADD745FDAC35 /* IDValidationErrorLength.h */,
+				DA3B0C121B7E5A0A0393D96EAB2677CE /* IDValidationErrorLength.m */,
+				B204BF8A3BA13C8C2E650F124C085A1B /* IDValidationErrorLuhn.h */,
+				5E9991201778FBFF7CC5CBF3C42CAD1E /* IDValidationErrorLuhn.m */,
+				706A59C05A7EDDB563F6297381D797CD /* IDValidationErrorNumericString.h */,
+				51ECE5B08C6A8157B7F2270E6408332D /* IDValidationErrorNumericString.m */,
+				28ED16CE7BAE7AABCCB2E4A184B5E1D7 /* IDValidationErrorRange.h */,
+				2B2FAF696EDFC0004FD62CD84FDD15E9 /* IDValidationErrorRange.m */,
+				73C99DDF59EAE75C251CC14E15F7E630 /* IDValidationErrorRegularExpression.h */,
+				9BC0C206975463B01D17417622EDE170 /* IDValidationErrorRegularExpression.m */,
+				1AE285698E94B3EC250D7DA7FA93AD1D /* IDValidationErrorTermsAndConditions.h */,
+				3BA8DAF7E55697FC5011E8C74EA87C85 /* IDValidationErrorTermsAndConditions.m */,
+				C04AB04A5EE9A9519913F3A2CDB6742F /* IDValidator.h */,
+				4F21132878F9611CAAE63440D50B0EC7 /* IDValidator.m */,
+				11961A8481E4934ADFDE672B03B48023 /* IDValidatorEmailAddress.h */,
+				5E21A59DD2148F55CA3146C93049F921 /* IDValidatorEmailAddress.m */,
+				DFEC4F63075836E122794D80BCB32F46 /* IDValidatorExpirationDate.h */,
+				7BCF4D98FF46FAEA0D96C862920DD78F /* IDValidatorExpirationDate.m */,
+				31E0D555CD383ACA8FEADD42161F5056 /* IDValidatorFixedList.h */,
+				58751F6E9D76334CF658EC1B13413CC4 /* IDValidatorFixedList.m */,
+				145FECEA70B58CC9C5AC353FDA68DC2B /* IDValidatorIBAN.h */,
+				8B4772FEBFF980D4CB782A07E531D3F6 /* IDValidatorIBAN.m */,
+				00D197DDCC01CCEDFB5F7B73BF9E3A93 /* IDValidatorLength.h */,
+				6488DFB8A01F1E76B27302585897A81C /* IDValidatorLength.m */,
+				7514F23A07195E420F956730DB4CABA8 /* IDValidatorLuhn.h */,
+				3407909208E111903E4759D92E6852F2 /* IDValidatorLuhn.m */,
+				2022E7BAF3A78882C2C3FE49546564FB /* IDValidatorRange.h */,
+				091695FD5B6BC421A9E3D798A45C9C73 /* IDValidatorRange.m */,
+				5886767CF2ACEC2E55995F22F168F735 /* IDValidatorRegularExpression.h */,
+				F5F8128E960891249C624C3190F38877 /* IDValidatorRegularExpression.m */,
+				EB6E37EF6CD3A72C8B52020F80F7B8E6 /* IDValidators.h */,
+				F516B2968244BE0B3B0966D6FB789E54 /* IDValidators.m */,
+				880A46D22E5A867BDC3DFA64019B6497 /* IDValidatorTermsAndConditions.h */,
+				A511AE805562A28A179C6FF2B363362C /* IDValidatorTermsAndConditions.m */,
+				72DFB0873906596469A65F46E1FB94FF /* IDValueMappingItem.h */,
+				88062F2E2D469E114525A91443331189 /* IDValueMappingItem.m */,
+				B709B9B640F411F943E8677C5DB00CE2 /* Info.plist */,
+				0E66A0F683BDF8134411FEF9C535B86E /* IngenicoDirectSDK.bundle */,
+				C2CF78530ADD0A393914C3BD93F4741C /* IngenicoDirectSDK.h */,
+				B959094FDE4D13AE6487AB19A4E1D2E2 /* pp_logo_402.png */,
+				4331847AED41E3C2D76CAD245E0A25B1 /* pp_logo_892.png */,
+				21FC6044E64EEF8A4E0452275A142AA8 /* Pod */,
+				21BE9EB6EB290E8FA2634192291120CD /* Support Files */,
+			);
+			name = IngenicoDirectSDK;
+			path = "../../objc-sdk";
+			sourceTree = "<group>";
+		};
+		21BE9EB6EB290E8FA2634192291120CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD2578A25506B860A746C596729AA6 /* IngenicoDirectSDK-dummy.m */,
+				D1D6F9D9DB772E86ADBB3B9BC48A280B /* IngenicoDirectSDK-prefix.pch */,
+				160BC09A38C5BA4054A2A44F2E9F9A1E /* IngenicoDirectSDK.debug.xcconfig */,
+				FBF993629441FB0BFE238D4B2E9FA21C /* IngenicoDirectSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../objc-example/Pods/Target Support Files/IngenicoDirectSDK";
+			sourceTree = "<group>";
+		};
+		21FC6044E64EEF8A4E0452275A142AA8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A08A83F33ABA1F2125E0846830A2707A /* IngenicoDirectSDK.podspec */,
+				737BE69AB74C90AAB8C977F9C2DC8979 /* LICENSE.txt */,
+				B360C06E6295C02C17C963176E6C5F1F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		43D8426B642F33F6F6C8731DBD260060 /* Pods-IngenicoDirectExample */ = {
+			isa = PBXGroup;
+			children = (
+				BD7725F5283C6A723DBB17E6678646F5 /* Pods-IngenicoDirectExample-acknowledgements.markdown */,
+				F9B3A425537D84F17B68F57FB7FD76C5 /* Pods-IngenicoDirectExample-acknowledgements.plist */,
+				294711AF8AC3F51F5C1CD46A06CB5E73 /* Pods-IngenicoDirectExample-dummy.m */,
+				420F5ADE856D6CABEBCB654BBE3981A0 /* Pods-IngenicoDirectExample-resources.sh */,
+				315F1C90551F45E7E7AC5F0B6D77835D /* Pods-IngenicoDirectExample.debug.xcconfig */,
+				7E40DBB3ABFE2D044216FA1C5B7D4416 /* Pods-IngenicoDirectExample.release.xcconfig */,
+			);
+			name = "Pods-IngenicoDirectExample";
+			path = "Target Support Files/Pods-IngenicoDirectExample";
+			sourceTree = "<group>";
+		};
+		5CA68A8067F0926E62D21A438BEDB248 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43D8426B642F33F6F6C8731DBD260060 /* Pods-IngenicoDirectExample */,
+				BCAFDA12D003647A4AD2181F46FA20C6 /* Pods-IngenicoDirectExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9EFE7BB1AF14C049D532052948B0F89A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B25A7A0E39C86D9EDCBCE8AA0E89C163 /* SVProgressHUD-dummy.m */,
+				6ADE0B7482788DCE82A72B26D6DD8289 /* SVProgressHUD-prefix.pch */,
+				A3A6028492814CECEB0B30617BF3D15F /* SVProgressHUD.debug.xcconfig */,
+				E66C685D15858D18AEB754F2EF98E536 /* SVProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		BCAFDA12D003647A4AD2181F46FA20C6 /* Pods-IngenicoDirectExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C89F865FD2815780D8EDC2475BC3AC29 /* Pods-IngenicoDirectExampleTests-acknowledgements.markdown */,
+				2510AEBD9AF17EA10D49A121208D0ECB /* Pods-IngenicoDirectExampleTests-acknowledgements.plist */,
+				C99A92CE9F019FDFF99745F5E890CBB3 /* Pods-IngenicoDirectExampleTests-dummy.m */,
+				C4EE321563C1371BDA234D5E919E7E56 /* Pods-IngenicoDirectExampleTests.debug.xcconfig */,
+				6315461175B678BBE7CB8404C3A617A7 /* Pods-IngenicoDirectExampleTests.release.xcconfig */,
+			);
+			name = "Pods-IngenicoDirectExampleTests";
+			path = "Target Support Files/Pods-IngenicoDirectExampleTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F56029FF8C229A9E5F93BAFB89C8DFD4 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				D0F28EFC8C9E325880381D586C3CA919 /* Pods */,
+				E7FCE18881B65090AB91441759BE3516 /* Products */,
+				5CA68A8067F0926E62D21A438BEDB248 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0F28EFC8C9E325880381D586C3CA919 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1EFD614676ED60DFF5205A5D3D716C5 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1EFD614676ED60DFF5205A5D3D716C5 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B47C61C9A7B76894B8FD4177D13562E0 /* SVIndefiniteAnimatedView.h */,
+				E53F251231306653704A5432E1D79259 /* SVIndefiniteAnimatedView.m */,
+				CD78FAA4F57E4C8A356C5A23246A495F /* SVProgressAnimatedView.h */,
+				4EE45DF297826AF09B98160F77E7639F /* SVProgressAnimatedView.m */,
+				F5D4077DAE168B0F3DCC78108241BDDE /* SVProgressHUD.h */,
+				193380CF0DDFFC1DA4C26DD68A3E5B7D /* SVProgressHUD.m */,
+				BFBF861E3EEF28F7A1F76543EF1A3BD2 /* SVRadialGradientLayer.h */,
+				EBE9EF848C5F146820F90EAD2AF276B7 /* SVRadialGradientLayer.m */,
+				D223C222CF4942FBB1C779E2FEA5F07F /* Resources */,
+				9EFE7BB1AF14C049D532052948B0F89A /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		D223C222CF4942FBB1C779E2FEA5F07F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8399026905C187E07993DCBE54A983C7 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7FCE18881B65090AB91441759BE3516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B431540FCE91DA7EF4F07A033742459 /* libIngenicoDirectSDK.a */,
+				C66D1B73598E9104AF6F3605CB2AFC1C /* libPods-IngenicoDirectExample.a */,
+				8AF2594EED2B9BAB7320AA17BDF195A1 /* libPods-IngenicoDirectExampleTests.a */,
+				E97D43C46A45EE515A4DA3AF94398441 /* libSVProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F56029FF8C229A9E5F93BAFB89C8DFD4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F7110C3E5F52013B3F468097ACFE97A /* IngenicoDirectSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		93D99E1C2A6D076BB1036AC2506A87B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B037E2E63DF96DCC2CAECBF5671F0FA /* IDAccountOnFile.h in Headers */,
+				21D805EA6C60C89347547D57C51C85CB /* IDAccountOnFileAttribute.h in Headers */,
+				FEA140EE170CE6A492E173DECB71ED36 /* IDAccountOnFileAttributes.h in Headers */,
+				9363335FE3C5C6F380E2E08F59943F6B /* IDAccountOnFileAttributeStatus.h in Headers */,
+				BA85899276AA6849879877EA51A9C1EF /* IDAccountOnFileDisplayHints.h in Headers */,
+				D44D9B0F91403DAA660F3BC32D1B50B2 /* IDAccountsOnFile.h in Headers */,
+				A233907831E09F35AF267BF54938FEB2 /* IDAFNetworkingWrapper.h in Headers */,
+				050379DEB460FDBB18D108D143C8297E /* IDAssetManager.h in Headers */,
+				EEE75AAC36BAC73977DC12AF751FC132 /* IDBase64.h in Headers */,
+				0F9A0023DABC4DE5B5FF80FCE1927CA2 /* IDBasicPaymentItem.h in Headers */,
+				73047F7C249309E250D5BF5D0DDC48E0 /* IDBasicPaymentItemConverter.h in Headers */,
+				F1E4D22211D0B0C0B786CE8914069393 /* IDBasicPaymentProduct.h in Headers */,
+				DC8E6FF4A70548DC008137099DA153FD /* IDBasicPaymentProductConverter.h in Headers */,
+				DD1035158E2A60FC7C346347B3F717BF /* IDBasicPaymentProductGroup.h in Headers */,
+				A170C3CBEF9527BD108E9720B841AD4F /* IDBasicPaymentProductGroups.h in Headers */,
+				6967A363B65D2A7632FE93ABB3E40A08 /* IDBasicPaymentProducts.h in Headers */,
+				E2FFBEB448A8E26BCDE6ACAA381D07B3 /* IDBasicPaymentProductsConverter.h in Headers */,
+				B2698E65291D1249ACA9392BA6546F02 /* IDC2SCommunicator.h in Headers */,
+				E99BBF05C85CB54BF25DDBA71E897A01 /* IDC2SCommunicatorConfiguration.h in Headers */,
+				676A1C294987CB5D7F2536141F0268C1 /* IDDataRestrictions.h in Headers */,
+				0FC821FC9A268C6259F98E48B947DBB9 /* IDDisplayElement.h in Headers */,
+				605C8B8F98AADBB7F79D3219C4CBD426 /* IDDisplayElementsConverter.h in Headers */,
+				E7423CED3C1C159FD3FE947B0DF217B6 /* IDDisplayElementType.h in Headers */,
+				A9F09F874198E821293756B698707DAD /* IDEncryptor.h in Headers */,
+				C1D7B6FC7D3382D98163947ADFB3ED65 /* IDEnvironment.h in Headers */,
+				635321916965DD324D5F2CCD09145054 /* IDFormElement.h in Headers */,
+				6847D576698C770A272F9CB232B29F2A /* IDFormElementType.h in Headers */,
+				59284638730C850AAEF12F114A7DF4FD /* IDIINDetail.h in Headers */,
+				3DFC3A76069B471343E30993E1E5833B /* IDIINDetailsResponse.h in Headers */,
+				75CA857131102859E5CD4756018AB849 /* IDIINDetailsResponseConverter.h in Headers */,
+				7BB81E74034BAE6CF4A0864D1405390F /* IDIINStatus.h in Headers */,
+				66CF947D1AEB19492BFE7F3BC86C9962 /* IDJOSEEncryptor.h in Headers */,
+				1DA03652406ACA1408C5638D24DBD91B /* IDJSON.h in Headers */,
+				FDAB672C43E963DFCD4B5E795EF974F4 /* IDLabelTemplate.h in Headers */,
+				82A11D159DBF699FC0943078EEDB85E7 /* IDLabelTemplateItem.h in Headers */,
+				49BCF0C38CAF8F3E56572BCFD94E9571 /* IDMacros.h in Headers */,
+				5B8B1DADB2A5C5730E81C79D2632AA94 /* IDNetworkingActivityConsoleLogger.h in Headers */,
+				C32392DB5D49266DD251423E7A9EE180 /* IDNetworkingActivityLogger.h in Headers */,
+				992CE69336EDBA62C3E3705DF4D940A8 /* IDNetworkingActivityLoggerProtocol.h in Headers */,
+				364BDDC596982B714A11D255CA7634EF /* IDNetworkingWrapper.h in Headers */,
+				53F9D07C0259931F8AF3EBD210F5B865 /* IDPaymentAmountOfMoney.h in Headers */,
+				59B1B03E6CFD23E7F64221819FA9DAE0 /* IDPaymentContext.h in Headers */,
+				C94EECDBFC42F7FB03289F324F45186A /* IDPaymentContextConverter.h in Headers */,
+				6CBE799BF9E928C1E31DB5EA0B90EBA4 /* IDPaymentItem.h in Headers */,
+				8EF5D2DA26C3BA92D071C1473CA11EA4 /* IDPaymentItemConverter.h in Headers */,
+				6E41B9BAFB938009183C3F3956495BE1 /* IDPaymentItemDisplayHints.h in Headers */,
+				FDCD232192960D5A03F4714ED61E1232 /* IDPaymentItems.h in Headers */,
+				8C60FB012C17909CC5ACC060F636A4D2 /* IDPaymentProduct.h in Headers */,
+				684E71A1D6456F74073816164315182C /* IDPaymentProduct302SpecificData.h in Headers */,
+				F4F557C886A1D0F46A1F4B24C2228926 /* IDPaymentProductConverter.h in Headers */,
+				21F2A9E46236D7277483ECBD4A7E912B /* IDPaymentProductField.h in Headers */,
+				10CCA54746F029D2D7298C9712FD4357 /* IDPaymentProductFieldDisplayHints.h in Headers */,
+				07A287AE15DE39DEE698F2F70A571D98 /* IDPaymentProductFields.h in Headers */,
+				CB6A81A374C0B68D3203647A5BE6138A /* IDPaymentProductGroup.h in Headers */,
+				6B8A46DCECF59505D113D2D298EE9A94 /* IDPaymentProductNetworks.h in Headers */,
+				80A675BE95D23141B3EBBC795CCB2AC9 /* IDPaymentRequest.h in Headers */,
+				E06A7B91A435AA59795CA7E7EEDF492D /* IDPreferredInputType.h in Headers */,
+				68330ED612EC5644D71B25F8655E24AA /* IDPreparedPaymentRequest.h in Headers */,
+				F30501C805F9B42A8B35BB4C50257060 /* IDPublicKeyResponse.h in Headers */,
+				470358AC45DBD4C307A8710F7F92F1C6 /* IDRegion.h in Headers */,
+				8D4DA7D323D4147CEC1D1FEEA155F79D /* IDSDKConstants.h in Headers */,
+				AA195C1F5C313A86EF7BB2E359C0B775 /* IDSession.h in Headers */,
+				F74E947025F5A4BDC9F57F8D1BDE6CF8 /* IDStringFormatter.h in Headers */,
+				B0CEBAB3545B674B40536DF1B83D8A1B /* IDToolTip.h in Headers */,
+				8CCEEEFDA7B88D183416A6C0FA24DC37 /* IDType.h in Headers */,
+				7B3BA9D6DB90261DC17E8A0E685BEC93 /* IDUtil.h in Headers */,
+				99599046E9583DA0BAD85EB3CE93A2BE /* IDValidationError.h in Headers */,
+				30F2CF296BF7728F9E17E7ACCEBB627A /* IDValidationErrorAllowed.h in Headers */,
+				2B360C82298BC7506FCE18FE99C45E32 /* IDValidationErrorEmailAddress.h in Headers */,
+				79E36CCF33BBCDE69D3D2847BD336F6B /* IDValidationErrorExpirationDate.h in Headers */,
+				CDAEDB69CD7E7CBD0250DD19724A6419 /* IDValidationErrorFixedList.h in Headers */,
+				DCF0573820707908E8A78D30B1787093 /* IDValidationErrorIBAN.h in Headers */,
+				6DEBD0FCFF104C1893AC18DE12113DAE /* IDValidationErrorInteger.h in Headers */,
+				545B7FE8A328EA9AA0859683BA942D3E /* IDValidationErrorIsRequired.h in Headers */,
+				EFCDA4FE54E04800874845FF8C1690B5 /* IDValidationErrorLength.h in Headers */,
+				B12399907B4958B983E30DFC3E4953C9 /* IDValidationErrorLuhn.h in Headers */,
+				9B8AEAF83516A06039F52AEABEBDEF24 /* IDValidationErrorNumericString.h in Headers */,
+				CBD2682392A582A667223EA29714CD57 /* IDValidationErrorRange.h in Headers */,
+				0940FC3487D27C272F76E78D36D4CFDA /* IDValidationErrorRegularExpression.h in Headers */,
+				36FAE96CAA239E02C614CADBCD1B4194 /* IDValidationErrorTermsAndConditions.h in Headers */,
+				79EE3D7D4EA7D170F0CC5C0463D1F1D9 /* IDValidator.h in Headers */,
+				17B190C66A2E98149708990141580893 /* IDValidatorEmailAddress.h in Headers */,
+				E111B2D25108CCD5651D39598D7C15C0 /* IDValidatorExpirationDate.h in Headers */,
+				95553DE35B9DF0D205E7B4F10051AE38 /* IDValidatorFixedList.h in Headers */,
+				08260BFBB6E7D2D8882AC35FF4DDE8D0 /* IDValidatorIBAN.h in Headers */,
+				B2CF18D596B9085D12CE984E33EB6DFF /* IDValidatorLength.h in Headers */,
+				B6019162F1D33FF19E711914928085FA /* IDValidatorLuhn.h in Headers */,
+				ECBB87AA470B0A63BF8AB367E54D8535 /* IDValidatorRange.h in Headers */,
+				2AB81E856DA6C8669E412BA30ACE8F8C /* IDValidatorRegularExpression.h in Headers */,
+				7736D43BF2A633984710942B36C1FBFF /* IDValidators.h in Headers */,
+				9EE38A9E16958132DD3F19DA0B73D829 /* IDValidatorTermsAndConditions.h in Headers */,
+				6F7439644C4DA4A6C3CC0DF346CFFA1F /* IDValueMappingItem.h in Headers */,
+				8B1BFBB7AD94076D57BED52FDCD5B718 /* IngenicoDirectSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2F44B3EB92E9880E3DC88522FFC3E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB73496B88ABCC47E7797863EA469D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41722A1BD41872D45B97FCEF2427E81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8649FA19DB7585214273380164946561 /* SVIndefiniteAnimatedView.h in Headers */,
+				E56ED51862897266BF586BA26965E137 /* SVProgressAnimatedView.h in Headers */,
+				AF559EEBDEEDF421756966862ED3E746 /* SVProgressHUD.h in Headers */,
+				DC85A1CC87F3496C48D0CC2B09E5322F /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12D26A0CA075A04162D524BF97CCFEDB /* IngenicoDirectSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A1587BA9FF91F3F0806C45F87809FF /* Build configuration list for PBXNativeTarget "IngenicoDirectSDK" */;
+			buildPhases = (
+				93D99E1C2A6D076BB1036AC2506A87B7 /* Headers */,
+				835A3BE8D24A8A3B330501D706C617B6 /* Sources */,
+				E720C0F9067C00DE37A50D08C59EEC15 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IngenicoDirectSDK;
+			productName = IngenicoDirectSDK;
+			productReference = 1B431540FCE91DA7EF4F07A033742459 /* libIngenicoDirectSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49D2BFAAA78D95C1429E59AB1A23ACE /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				E41722A1BD41872D45B97FCEF2427E81 /* Headers */,
+				B76279709442A71C18DF24A6F4A94B43 /* Sources */,
+				70010619EE67FAA5998927DE2714A46F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = E97D43C46A45EE515A4DA3AF94398441 /* libSVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1FB10F504211F88CCD14E3BDF1FDF18C /* Pods-IngenicoDirectExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BE527B07A704F9A971B68254D40EC2 /* Build configuration list for PBXNativeTarget "Pods-IngenicoDirectExampleTests" */;
+			buildPhases = (
+				9D2F44B3EB92E9880E3DC88522FFC3E6 /* Headers */,
+				6F134E880F940BE0F81876148A755936 /* Sources */,
+				5D19434270AFB502EED3C327DF441D59 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48967AB0AF4160CBACFF8659D5CBF9A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-IngenicoDirectExampleTests";
+			productName = "Pods-IngenicoDirectExampleTests";
+			productReference = 8AF2594EED2B9BAB7320AA17BDF195A1 /* libPods-IngenicoDirectExampleTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A6E2EB7BA83AFD31F5DAC000A167CABD /* Pods-IngenicoDirectExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0818BA43FBF9902F16A79522B0914CB3 /* Build configuration list for PBXNativeTarget "Pods-IngenicoDirectExample" */;
+			buildPhases = (
+				DBB73496B88ABCC47E7797863EA469D4 /* Headers */,
+				041722CE188144CD2F9496D81510C2F0 /* Sources */,
+				9978487C9DE5F255B6196E88086B3FF2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				622EF9E454BD20A23BBC08BFC064DFEB /* PBXTargetDependency */,
+				1BC926DDB1353F12F7F05A60403F28A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-IngenicoDirectExample";
+			productName = "Pods-IngenicoDirectExample";
+			productReference = C66D1B73598E9104AF6F3605CB2AFC1C /* libPods-IngenicoDirectExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E7FCE18881B65090AB91441759BE3516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12D26A0CA075A04162D524BF97CCFEDB /* IngenicoDirectSDK */,
+				A6E2EB7BA83AFD31F5DAC000A167CABD /* Pods-IngenicoDirectExample */,
+				1FB10F504211F88CCD14E3BDF1FDF18C /* Pods-IngenicoDirectExampleTests */,
+				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041722CE188144CD2F9496D81510C2F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431022D96B10E88CB043E6D3878AC297 /* Pods-IngenicoDirectExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F134E880F940BE0F81876148A755936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11BB87438E3DC0CAA3CD9F1981D35E4 /* Pods-IngenicoDirectExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835A3BE8D24A8A3B330501D706C617B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852F89F7BB1409206C41EE2A8E2B024D /* IDAccountOnFile.m in Sources */,
+				B828ED3CA483FEB87469E742AB8405B9 /* IDAccountOnFileAttribute.m in Sources */,
+				615F7E8C0E7A6279C288EA70F9EFD418 /* IDAccountOnFileAttributes.m in Sources */,
+				9E7670C1677ACF05B080B52CB9CCEBAD /* IDAccountOnFileDisplayHints.m in Sources */,
+				E3C02666730BB8A2B33F2E4666213163 /* IDAccountsOnFile.m in Sources */,
+				A6FD1E0C4C92E78A6FB9EF200D364E51 /* IDAFNetworkingWrapper.m in Sources */,
+				71FFBDB0842AE6150461ED998F1B09F3 /* IDAssetManager.m in Sources */,
+				87C2268B46DF5ABAA00A97359BCFCFCA /* IDBase64.m in Sources */,
+				E04F0A55E0197709A26769E2048E401E /* IDBasicPaymentItemConverter.m in Sources */,
+				D942901EB7A410CB73644168A380E730 /* IDBasicPaymentProduct.m in Sources */,
+				A15CE96F7AD33BDB27FDDF7195E8D224 /* IDBasicPaymentProductConverter.m in Sources */,
+				D40AE1D2BED0040884D6A56195B96C02 /* IDBasicPaymentProductGroup.m in Sources */,
+				B9236CD38CC950D674FA1C50024E3CD6 /* IDBasicPaymentProductGroups.m in Sources */,
+				531E89F1C862F5B2C0CDE3F5D9D37A10 /* IDBasicPaymentProducts.m in Sources */,
+				593F40BE0606B8A1FC5A54739D3F4CE7 /* IDBasicPaymentProductsConverter.m in Sources */,
+				A7288E4CCD296A766E97A28EF078EC01 /* IDC2SCommunicator.m in Sources */,
+				56FDF488C0304EF7DE48F5409A1399AD /* IDC2SCommunicatorConfiguration.m in Sources */,
+				E5F0BE6AB852E5D7510A0030778728F0 /* IDDataRestrictions.m in Sources */,
+				E31A5016E3E63DAE772F17FC030852B2 /* IDDisplayElement.m in Sources */,
+				85E4ABEC6F36DF2C0E6CFCDD03E22BF3 /* IDDisplayElementsConverter.m in Sources */,
+				0CDABD899A24EA43E5E7D859611D1C8A /* IDEncryptor.m in Sources */,
+				DD255BD6D2927D3B37A65D6AE04C9105 /* IDFormElement.m in Sources */,
+				FF4C8D53678F00E0715E058185FB4E6A /* IDIINDetail.m in Sources */,
+				E6D0B7CC7030E8CE14FFA90CAE078EAF /* IDIINDetailsResponse.m in Sources */,
+				EFC6A629FE1A4F780CC60B16B221E2E2 /* IDIINDetailsResponseConverter.m in Sources */,
+				BA558BFEFACEF6DE1DB44109BA87AD0D /* IDJOSEEncryptor.m in Sources */,
+				EFBFD456DBB76B03749210B14D253A8C /* IDJSON.m in Sources */,
+				81A9353CD67DD8ACACA8CD24641BEA8A /* IDLabelTemplate.m in Sources */,
+				4FA91E3FA475553B7C522C1C0FC75A38 /* IDLabelTemplateItem.m in Sources */,
+				384030644B9635B57E7ED7D007A455D3 /* IDNetworkingActivityConsoleLogger.m in Sources */,
+				88AE7E663A4E730B56187309E7822D94 /* IDNetworkingActivityLogger.m in Sources */,
+				BB6954259AAB80305E86240FB0B26E1C /* IDNetworkingWrapper.m in Sources */,
+				D53DDEE4926854705AF4E919BC6A3F40 /* IDPaymentAmountOfMoney.m in Sources */,
+				E4B88785F63FF615429823059AB7D6D5 /* IDPaymentContext.m in Sources */,
+				80D4E738D7DF5231E9086947F057D9A6 /* IDPaymentContextConverter.m in Sources */,
+				8CF9EA211C496A36ECD76F50254BAD9F /* IDPaymentItemConverter.m in Sources */,
+				63C5AAAE925E8166FDDC1492B346A316 /* IDPaymentItemDisplayHints.m in Sources */,
+				BC856574A8FC24A3280F7BA544B2E4E8 /* IDPaymentItems.m in Sources */,
+				D22B2807D020A9DF0494636B1311FAE7 /* IDPaymentProduct.m in Sources */,
+				48D599612437DB8485B7096AAC94726D /* IDPaymentProduct302SpecificData.m in Sources */,
+				E35D86BE373032F295228D21C5B3EDF1 /* IDPaymentProductConverter.m in Sources */,
+				0A9AEA9AD22C5A2903433F863803D8DD /* IDPaymentProductField.m in Sources */,
+				66467D07B7852F201825D0469CA689AC /* IDPaymentProductFieldDisplayHints.m in Sources */,
+				EE69AEFB4A767B32050CCF4E4A537756 /* IDPaymentProductFields.m in Sources */,
+				78321FACAEC7D026A9EEE42D2FBAA7C9 /* IDPaymentProductGroup.m in Sources */,
+				2166C016B9E65707BC4E831564EA0BEC /* IDPaymentProductNetworks.m in Sources */,
+				8BC0B54E252F283B2B0CE67F79E10F36 /* IDPaymentRequest.m in Sources */,
+				B4DF7F533D32AE659F94BCE590941FF2 /* IDPreparedPaymentRequest.m in Sources */,
+				D2DCA7525BEB0F78656ACA34238BFE0D /* IDPublicKeyResponse.m in Sources */,
+				7CD9EC28CFAE9B96E3696D72C4399293 /* IDSession.m in Sources */,
+				FE93D45135A519127DF4FA2801D284ED /* IDStringFormatter.m in Sources */,
+				4B1B1D8AF578BA84F9E226C8D1EA730D /* IDToolTip.m in Sources */,
+				42BA914BCC0A03C556E5A45CAFC4AC19 /* IDUtil.m in Sources */,
+				20B27F232EE4523A56A1CD43566B5CAB /* IDValidationError.m in Sources */,
+				FA4ADFD9C6ABCAE2CCEC5A5777F96F8E /* IDValidationErrorAllowed.m in Sources */,
+				11B2F815781BBD6D36F1A756986627AB /* IDValidationErrorEmailAddress.m in Sources */,
+				D898A486A769EAC63B49F68856BB8206 /* IDValidationErrorExpirationDate.m in Sources */,
+				1621DED016AD9D13894021CA6E102CE8 /* IDValidationErrorFixedList.m in Sources */,
+				B206FB2CC5D6805C9209D7B8219BA507 /* IDValidationErrorIBAN.m in Sources */,
+				636E54DDE51104BF6EA3D5A85BC06C9D /* IDValidationErrorInteger.m in Sources */,
+				60DE0B1DD1237F8C839E8CC6B2767290 /* IDValidationErrorIsRequired.m in Sources */,
+				E1C8EDA447B9B6DD5986921E47847D70 /* IDValidationErrorLength.m in Sources */,
+				93BCCAA487DF48D92CE256EE6E02D023 /* IDValidationErrorLuhn.m in Sources */,
+				619A1E6A15A6DC7B2CC5DB03D2129BE9 /* IDValidationErrorNumericString.m in Sources */,
+				1DC1BCF139C14423FA2C965E66464D4F /* IDValidationErrorRange.m in Sources */,
+				ABB0939F3F00D435A5CE2E2EC077C166 /* IDValidationErrorRegularExpression.m in Sources */,
+				E29B4B8D1F975A5CC60C8FAD0EDDFF1D /* IDValidationErrorTermsAndConditions.m in Sources */,
+				F2AD5C8E09B1FA6A528A11164753D009 /* IDValidator.m in Sources */,
+				2533CBAF823908BE914B4419F929DD60 /* IDValidatorEmailAddress.m in Sources */,
+				5A3E5C729E314FAA98ADEA094F4E4897 /* IDValidatorExpirationDate.m in Sources */,
+				7DCA0839488AEB6AA05423741365AF45 /* IDValidatorFixedList.m in Sources */,
+				9028D72A9A027E883B6E9A0EDBD78795 /* IDValidatorIBAN.m in Sources */,
+				B9D5CB96CBDAE259DE2B8B800A77D679 /* IDValidatorLength.m in Sources */,
+				44BD48D028EA379E0CFC7C7FCFDFA133 /* IDValidatorLuhn.m in Sources */,
+				7114BA5B85100E68F2B71323BA113641 /* IDValidatorRange.m in Sources */,
+				6A9C30C1F3C4808E9DB2B4005B7D2A0B /* IDValidatorRegularExpression.m in Sources */,
+				A19254C7022945481890FB155E6D80F8 /* IDValidators.m in Sources */,
+				F51376D5375835AB6040101CF7C66589 /* IDValidatorTermsAndConditions.m in Sources */,
+				0EE6346B6AE674A2740D84C18B37F726 /* IDValueMappingItem.m in Sources */,
+				2906B0199EA29CA0020A84DA8D23CDF1 /* Info.plist in Sources */,
+				EB963CD460452B65C76B9EF60D3B9E15 /* IngenicoDirectSDK-dummy.m in Sources */,
+				E8EE9A5E4731D4BC283CA3EB63C68720 /* pp_logo_402.png in Sources */,
+				1FC84E5854E8ABB9E038676FFEC9059E /* pp_logo_892.png in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76279709442A71C18DF24A6F4A94B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545325DBA1132F1E2DA1C20B95108395 /* SVIndefiniteAnimatedView.m in Sources */,
+				28EE1597D49EEC635522C951B57940C5 /* SVProgressAnimatedView.m in Sources */,
+				9E6A86D1D3983E3AD2802CA2B480D515 /* SVProgressHUD-dummy.m in Sources */,
+				4971C5D36C8DB492740A46B331AB537D /* SVProgressHUD.m in Sources */,
+				F469136DE2F0C917744B2169A95A73E5 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BC926DDB1353F12F7F05A60403F28A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = 2069479663E3BCAB3E2F3B2CA822EBA7 /* PBXContainerItemProxy */;
+		};
+		48967AB0AF4160CBACFF8659D5CBF9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-IngenicoDirectExample";
+			target = A6E2EB7BA83AFD31F5DAC000A167CABD /* Pods-IngenicoDirectExample */;
+			targetProxy = D4C369A10C19B4FE4B18E9729EFEBD7F /* PBXContainerItemProxy */;
+		};
+		622EF9E454BD20A23BBC08BFC064DFEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IngenicoDirectSDK;
+			target = 12D26A0CA075A04162D524BF97CCFEDB /* IngenicoDirectSDK */;
+			targetProxy = 5924AF768BA77567A2283D00983211C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01CD96ECF66BA396CAC9107C7CBB3E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A6028492814CECEB0B30617BF3D15F /* SVProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3230F2CC4E162EED30D259AA64B3EE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315F1C90551F45E7E7AC5F0B6D77835D /* Pods-IngenicoDirectExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EFB2CB71B20E90F4C68A0E9B60FED35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBF993629441FB0BFE238D4B2E9FA21C /* IngenicoDirectSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IngenicoDirectSDK/IngenicoDirectSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = IngenicoDirectSDK;
+				PRODUCT_NAME = IngenicoDirectSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0B3DACEF2F4A7DD8836A5F580ED485D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4EE321563C1371BDA234D5E919E7E56 /* Pods-IngenicoDirectExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC1B2B9DB61905C6A167ABC0E37614F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E40DBB3ABFE2D044216FA1C5B7D4416 /* Pods-IngenicoDirectExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CE69A5F9231353F30389EB93312DF2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E66C685D15858D18AEB754F2EF98E536 /* SVProgressHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F995A861BA56F528EB95A2A6640E9B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 160BC09A38C5BA4054A2A44F2E9F9A1E /* IngenicoDirectSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IngenicoDirectSDK/IngenicoDirectSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = IngenicoDirectSDK;
+				PRODUCT_NAME = IngenicoDirectSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF5869959C4EF83165D215685B746842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6315461175B678BBE7CB8404C3A617A7 /* Pods-IngenicoDirectExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0818BA43FBF9902F16A79522B0914CB3 /* Build configuration list for PBXNativeTarget "Pods-IngenicoDirectExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3230F2CC4E162EED30D259AA64B3EE5A /* Debug */,
+				AC1B2B9DB61905C6A167ABC0E37614F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A1587BA9FF91F3F0806C45F87809FF /* Build configuration list for PBXNativeTarget "IngenicoDirectSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F995A861BA56F528EB95A2A6640E9B39 /* Debug */,
+				8EFB2CB71B20E90F4C68A0E9B60FED35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BE527B07A704F9A971B68254D40EC2 /* Build configuration list for PBXNativeTarget "Pods-IngenicoDirectExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B3DACEF2F4A7DD8836A5F580ED485D /* Debug */,
+				FF5869959C4EF83165D215685B746842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49D2BFAAA78D95C1429E59AB1A23ACE /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CD96ECF66BA396CAC9107C7CBB3E97 /* Debug */,
+				CE69A5F9231353F30389EB93312DF2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,1 @@
+../../../../../objc-sdk/IngenicoDirectSDK/IDPaymentProduct320SpecificData.h

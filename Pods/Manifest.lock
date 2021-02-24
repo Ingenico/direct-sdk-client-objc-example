@@ -1,0 +1,23 @@
+PODS:
+  - IngenicoDirectSDK (1.0.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - IngenicoDirectSDK (from `../objc-sdk`)
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  IngenicoDirectSDK:
+    :path: "../objc-sdk"
+
+SPEC CHECKSUMS:
+  IngenicoDirectSDK: db07dd13cacbc1469e4d4f40f61181a273782816
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 8cc5185f9bb867afef88735d964a8b2cd4ece584
+
+COCOAPODS: 1.10.1

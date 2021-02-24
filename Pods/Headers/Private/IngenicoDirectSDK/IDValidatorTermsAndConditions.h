@@ -1,0 +1,1 @@
+../../../../../objc-sdk/IngenicoDirectSDK/IDValidatorTermsAndConditions.h
