@@ -1,12 +1,12 @@
 platform :ios, '9.0'
 
-target 'IngenicoDirectExample' do
+target 'OnlinePaymentsExample' do
 
-  # Pods for IngenIDoDirectExample
-  pod 'IngenicoDirectSDK', '~> 1.0'
+  # Pods for OnlinePaymentsExample
+  pod 'OnlinePaymentsSDK', '~> 2.0'
   pod 'SVProgressHUD'
 
-  target 'IngenicoDirectExampleTests' do
+  target 'OnlinePaymentsExampleTests' do
     inherit! :search_paths
     # Pods for testing
   end

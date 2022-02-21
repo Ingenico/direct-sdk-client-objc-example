@@ -1,9 +1,7 @@
-Ingenico Direct Objective-C SDK Example
+Online Payments Objective-C SDK Example
 ===============================
 
-This example app illustrates the use of the [Ingenico Direct Objective-C iOS SDK](https://github.com/Ingenico/direct-sdk-client-ios) and the services provided by Ingenico ePayments on the Ingenico ePayments platform.
-
-See the [Ingenico Connect Developer Hub](https:///support.direct.ingenico.com/documentation/sdk/mobile/ios/) for more information on how to use the SDK.
+This example app illustrates the use of the Online Payments Objective-C iOS SDK and the services provided by the Online Payments platform.
 
 Prerequisites
 ------------
@@ -18,10 +16,10 @@ $ sudo gem install cocoapods
 Installation
 ------------
 
-To obtain the example app for the Ingenico Connect Objective-C iOS SDK, first clone the code from GitHub:
+To obtain the example app for the Online Payments Objective-C iOS SDK, first clone the code from GitHub:
 
 ```
-$ git clone https://github.com/Ingenico/direct-sdk-client-ios-example.git
+$ git clone https://github.com/wl-online-payments-direct/sdk-client-objc-example.git
 ```
 
 Then run the following command to install the dependencies with CocoaPods:

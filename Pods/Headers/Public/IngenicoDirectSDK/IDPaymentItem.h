@@ -1,1 +1,0 @@
-../../../../../objc-sdk/IngenicoDirectSDK/IDPaymentItem.h

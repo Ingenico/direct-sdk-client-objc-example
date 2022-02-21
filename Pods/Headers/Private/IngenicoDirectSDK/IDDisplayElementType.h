@@ -1,1 +1,0 @@
-../../../../../objc-sdk/IngenicoDirectSDK/IDDisplayElementType.h

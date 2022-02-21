@@ -1,1 +1,0 @@
-../../../../../objc-sdk/IngenicoDirectSDK/IDC2SCommunicator.h
